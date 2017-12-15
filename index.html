@@ -7,7 +7,7 @@
     <meta name="description" content="5th ICNN 2018, VITCC">
     <meta name="author" content="Prashant Bhardwaj">
 
-    <title>5th ICNN 2018</title>
+    <title>MEDICENTO</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
@@ -15,7 +15,9 @@
     <!-- Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <!-- Custom Theme CSS -->
     <link href="css/style.css" rel="stylesheet">
@@ -37,6 +39,75 @@
             list-style: none;
             padding: 0;
         }
+
+        #circle {
+                background-color:white;
+                width:200px; /* You can define it by % also */
+                height:200px; /* You can define it by % also */
+                position:relative;
+                border:1px solid black;
+                border-radius: 50%;
+                opacity: 0.5;
+                filter: alpha(opacity=50);
+                }
+
+        #small-circle {
+                background-color:green;
+                top: 13%; /* of the container */
+                width:75%; /* of the container */
+                height:75%; /* of the container */
+                position: relative;
+                border:1px solid black;
+                border-radius: 50%;
+                opacity: 1;
+                filter: alpha(opacity=100);
+}
+        
+        #circle1 {
+        background-color: white;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 50%;
+    opacity: 0.5;
+        }
+
+        #small-circle1 {
+       background-color:green;
+                top: 13%;  /* of the container */
+                width:75%; /* of the container */
+                height:75%; /* of the container */
+                position: relative;
+                border:1px solid black;
+                border-radius: 50%;
+                opacity: 1;
+                filter: alpha(opacity=100);
+}
+ #circle2 {
+            background-color: white;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 50%;
+    opacity: 0.5;
+        
+        }
+
+        #small-circle2 {
+       background-color:green;
+                top: 13%;  /* of the container */
+                width:75%; /* of the container */
+                height:75%; /* of the container */
+                position: relative;
+                border:1px solid black;
+                border-radius: 50%;
+                opacity: 1;
+                filter: alpha(opacity=100);
+}
+        
+
     </style>
     
 </head>
@@ -105,37 +176,57 @@
 
         <div class="container-wrapper">
            <div class="container">
-            <div class="col-md-12 wp1 delay-05s">
-            
-            <div class="intro-info-wrapper">
-            <img src="img/banner.png">
 
-            <h1 class="text-center">5<sup>th</sup> ICNN <span class="text-color font-light">2018</span></h1>
-            <h2 class="text-center">8-10 February, 2018</h2>
-            <h4 class="text-center">Nanomaterials and Nanocomposite</h4>
-            <h4 class="text-center">Special emphasis on health, energy and environment</h4>
-                <div id="owl-intro" class="owl-carousel owl-theme">
-                    <div class="item">
-                       <div class="col-lg-6">
-                           <a href="http://i2cner.kyushu-u.ac.jp/en/team/" target="_blank">
-                                <img class="shadowfilter" style="height: 20%; width: 20%;" src="img/icner.png">
-                            </a>
-                            <h4 class="text-center"><strong>Knowledge Partner</strong></h4>
-                       </div>
-                       <div class="col-lg-6">
-                           <a href="http://www.drreddys.com/" target="_blank">
-                                <img class="shadowfilter" style="height: 35%; width: 35%;" src="img/reddy.png">
-                            </a>
-                            <h4 class="text-center"><strong>Industry Partner</strong></h4>
-                       </div>
+                
+                <center>
+                <div class="row">
+                    <div class="col-sm-1"> 
+                    </div>
+                    <div class="col-sm-3"> 
+                    </div>
+                    <div class="col-sm-3"> 
+                         <div id="circle1">
+                            <div id="small-circle1">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3"> 
+                    </div>
+                    <div class="col-sm-1"> 
                     </div>
                 </div>
-            </div>
-        	</div>
-			</div><!-- /.intro-info-wrapper -->
 
+                <div class="row">
+                    <div class="col-sm-1"> 
+                        
+                    </div>
+                    <div class="col-sm-3"> 
+                        <div id="circle">
+                            <div id="small-circle">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3"> 
+                        
+                    </div>
+
+                    <div class="col-sm-3"> 
+                         <div id="circle2">
+                            <div id="small-circle2">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"> 
+                        
+                    </div>
+                </div>
+                </center>
+        	</div>
         </div>
-		</div>
+	</div>
         </div>
 
     </section><!-- /#intro --> 
@@ -150,286 +241,10 @@
     <div class="container wp2">
     <h1 class="section-title">About the conference</h1>
  
-        <div class="row">
-            <div style="text-align: justify;" class="col-lg-6 wp2 delay-05s">   
-               <p>
-                   It is a great pleasure to announce that 5<sup>th</sup> International Conference of Nano-materials and Nano-composites (ICNN) will be held at VIT University, Chennai during 08-10 February, 2018. 
-                
-                    It is very exciting to see nano-images of materials and their possible immense applications in the daily science column of newspapers. Every month numerous research papers are being published on potential nano-materials and their associated applications for the benefit of the society. Looking at the diversified research findings, it appears that in almost all the fields of materials research, nanostructures are bringing innovation and technological applications. 5<sup>th</sup> ICNN, therefore seeks a conglomeration of researchers and experts from academia and industries across the globe, to exchange ideas and intricacies of technological advances in nano-world. Experimental and theoretical aspects on nanoparticles/composites, CNT, graphene and other nanostructures will be addressed in this forum. Special emphasis will be given to interdisciplinary areas of health, energy and environment—their challenges and success stories.
-                </p>
-            <p></p> 
-            </div><!-- /.col-lg-6 -->
-            <div style="text-align: justify;" class="col-lg-6 wp2 delay-05s">
-                
-                <p>
-                    We invite you to participate in this conference at VIT University Chennai and exchange ideas and present your findings. It is believed that everyone will be benefited through interaction with experts from various fields leading to enriched research output. Definitely, several research collaborations will be established by the researchers of mutual interest through this conference platform. Awards will be given to outstanding research students for their oral/poster presentations. Special awards will also be announced for the researchers and faculty members for their exceptional research contributions. International and national scientific jurists will decide the selection process.
-                </p>
-                <p>
-                    This conference is being organized in association with International Institute for Carbon Neutral Energy, Kyushu University, Japan. The Industry partner for this conference is Dr. Reddy’s Lab, Hyderabad, India.
-                </p>
-            </div>
-    	</div><!-- /.row -->
-        <div>
-            <h2 class="sub-title">History of the conference</h2>
-            <div class="col-lg-12">
-                <p>
-                    The Previous edition of the conference, Fourth International Conference on Nanostructured Materials and Nanocomposites (ICNM 2017) was held between February 10-12, 2017 at Mahatma Gandhi University, Kottayam, Kerala, India.
-                </p>
-            </div>
-        </div>
-    </div><!-- /.container --> 
-    </section><!-- /#about -->     
-          
-    <!-- About-Sub Section -->
-    <section id="services">              
-    <div class="container"> 
-    <div id="topic" class="row">
-            <h2 class="sub-title">Topics</h2>
-                <div class="col-md-12 wp4 delay-05s">
-                
-                <div class="panel-group" id="accordion">
-                  <div class="panel panel-default">
-                    <div class="panel-heading">
-                      <h4 class="panel-title">
-                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                          <span class="glyphicon glyphicon-minus"></span>
-                          Nanoparticles/composites
-                        </a>
-                      </h4>
-                    </div>
-                    <div id="collapseOne" class="panel-collapse collapse in">
-                      <div class="panel-body">
-                           <ul class="feature-list lists">
-                               <li><i class="fa fa-check"></i> Synthesis/preparation</li>
-                               <li><i class="fa fa-check"></i> Properties</li>
-                               <li><i class="fa fa-check"></i> Characterization methods</li>
-                           </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="panel panel-default">
-                    <div class="panel-heading">
-                      <h4 class="panel-title">
-                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                          <span class="glyphicon glyphicon-plus"></span>
-                          Nanowhiskers
-                        </a>
-                      </h4>
-                    </div>
-                    <div id="collapseTwo" class="panel-collapse collapse">
-                      <div class="panel-body">
-                            <ul class="feature-list lists">
-                               <li><i class="fa fa-check"></i> Carbon nanotubes</li>
-                               <li><i class="fa fa-check"></i> Graphene</li>
-                           </ul>
-                      </div>
-                    </div>
-                  </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                                    <span class="glyphicon glyphicon-plus"></span>
-                                    Properties/ Applications (Devices &amp; Products)
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseThree" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <ul class="feature-list lists">
-                                   <li><i class="fa fa-check"></i> Magnetic</li>
-                                   <li><i class="fa fa-check"></i> Optical</li>
-                                   <li><i class="fa fa-check"></i> Electrical</li>
-                                   <li><i class="fa fa-check"></i> Electronic</li>
-                                   <li><i class="fa fa-check"></i> Mechanical</li>
-                                   <li><i class="fa fa-check"></i> Civil</li>
-                                   <li><i class="fa fa-check"></i> Semiconductor</li>
-                                   <li><i class="fa fa-check"></i> Dielectric</li>
-                                   <li><i class="fa fa-check"></i> Polymer</li>
-                                   <li><i class="fa fa-check"></i> Metal</li>
-                                   <li><i class="fa fa-check"></i> Ceramic (conducting/non-conducting)</li>
-                                   <li><i class="fa fa-check"></i> Bionano</li>
-                                   <li><i class="fa fa-check"></i> Organic/Inorganic Hybrid Nano Materials</li>
-                                   <li><i class="fa fa-check"></i> Nanomedicine, Nanoparticles for Drug delivery System</li>
-                                   <li><i class="fa fa-check"></i> Sensors</li>
-                                   <li><i class="fa fa-check"></i> MEMS</li>
-                                   <li><i class="fa fa-check"></i> Functional materials</li>
-                               </ul> 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-                                    <span class="glyphicon glyphicon-plus"></span>
-                                    Energy and energy storage
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseFour" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <ul class="feature-list lists">
-                                   <li><i class="fa fa-check"></i> Batteries</li>
-                                   <li><i class="fa fa-check"></i> Fuel Cells</li>
-                                   <li><i class="fa fa-check"></i> Hydrogen generation &amp; storage</li>
-                                   <li><i class="fa fa-check"></i> Supercapacitors</li>
-                                   <li><i class="fa fa-check"></i> Carbon capture</li>
-                                   <li><i class="fa fa-check"></i> Other storage devices</li>
-                               </ul> 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-                                    <span class="glyphicon glyphicon-plus"></span>
-                                    Environmental protection
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseFive" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <ul class="feature-list lists">
-                                   <li><i class="fa fa-check"></i> Electronic waste</li>
-                                   <li><i class="fa fa-check"></i> Solid waste management</li>
-                                   <li><i class="fa fa-check"></i> Tissue engineering</li>
-                               </ul> 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
-                                    <span class="glyphicon glyphicon-plus"></span>
-                                    Health
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseSix" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <ul class="feature-list lists">
-                                   <li><i class="fa fa-check"></i> Nanobio medicine</li>
-                                   <li><i class="fa fa-check"></i> Drug delivery</li>
-                                   <li><i class="fa fa-check"></i> Drinking water purification</li>
-                                   <li><i class="fa fa-check"></i> Wastewater treatment</li>
-                               </ul> 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
-                                    <span class="glyphicon glyphicon-plus"></span>
-                                    Other broad topics
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseSeven" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <ul class="feature-list lists">
-                                   <li><i class="fa fa-check"></i> Interphases/Interfaces behaviours</li>
-                                   <li><i class="fa fa-check"></i> Processing techniques of nanomaterials</li>
-                                   <li><i class="fa fa-check"></i> Crystallization behaviour</li>
-                                   <li><i class="fa fa-check"></i> Rheology</li>
-                                   <li><i class="fa fa-check"></i> Self-assembled Systems</li>
-                                   <li><i class="fa fa-check"></i> Modelling and Simulation for nanomaterial properties</li>
-                               </ul> 
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>      
-              
-             
-       </div><!-- /.advantages -->  
-    </div><!-- /.container --> 
-	</section><!-- /#about-sub -->     
-
-
-
-
-  <!-- Features Section -->
-  <section id="reg">
-  <div class="container">
-  <div class="row">
-            <h2 class="sub-title">Registration</h2><br>
-            <div class="col-md-12 features wp4">
-                <div class="table-responisve">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th></th>
-                                <th>On or Before December 15, 2017</th>
-                                <th>After December 15, 2017</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><b>Participants from India(<i class="fa fa-inr"></i>)</b></td>
-                                <td></td>
-                                <td></td>
-                            </tr> 
-                            <tr>
-                                <td>Faculty/Scientists</td>
-                                <td><i class="fa fa-inr"></i> 4500</td>
-                                <td><i class="fa fa-inr"></i> 5000</td>
-                            </tr>
-                            <tr>
-                                <td>Students</td>
-                                <td><i class="fa fa-inr"></i> 3000</td>
-                                <td><i class="fa fa-inr"></i> 3500</td>
-                            </tr>
-                            <tr>
-                                <td>Industry Personnel</td>
-                                <td><i class="fa fa-inr"></i> 6500</td>
-                                <td><i class="fa fa-inr"></i> 7000</td>
-                            </tr>
-                            <tr>
-                                <td>Accompanying Person</td>
-                                <td><i class="fa fa-inr"></i> 2000</td>
-                                <td><i class="fa fa-inr"></i> 2000</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td><b>Participants from Abroad(<i class="fa fa-dollar"></i>)</b></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>Faculty/Scientists</td>
-                                <td><i class="fa fa-dollar"></i> 300</td>
-                                <td><i class="fa fa-dollar"></i> 350</td>
-                            </tr>
-                            <tr>
-                                <td>Students</td>
-                                <td><i class="fa fa-dollar"></i> 200</td>
-                                <td><i class="fa fa-dollar"></i> 250</td>
-                            </tr>
-                            <tr>
-                                <td>Accompanying Person</td>
-                                <td><i class="fa fa-dollar"></i> 200</td>
-                                <td><i class="fa fa-dollar"></i> 200</td>
-                            </tr>
-                        </tbody>                                                     
-                    </table>                           
-                </div>
-                <hr>
-                <p>
-                    For participants, registration fee includes Conference kit, Admission to all sessions, Banquet, Tea, Lunch and Dinner on all conference days.<br>
-                    For accompanying persons, registration fee includes Admission to all sessions, Banquet, Tea, Lunch and Dinner on all conference days.
-                </p>
-                <hr>
-            </div>
-			</div>
+        
+    
+    
+  
             
 
 <div class="row">

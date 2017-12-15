@@ -68,7 +68,11 @@ body {
 html {
     width: 100%;
     height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
+
+
 
 section{
 	background: #3c3c3c;
@@ -182,7 +186,7 @@ iframe {
 	left: 0;
 	right: 0;
 
-	background: rgba(0,0,0,0.6) url(../img/overlay-pat.png);
+	/*background: rgba(0,0,0,0.6) url(../img/overlay-pat.png); */
 		
 }
 
