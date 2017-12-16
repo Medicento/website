@@ -22,6 +22,10 @@
     <!-- Custom Theme CSS -->
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/glow.css">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
    
     <!-- Advanced CSS -->
     <link href="css/animate.css" rel="stylesheet">
@@ -108,8 +112,96 @@
 }
         
 
+ 
+.testimonial{ margin: 0 20px 50px; }
+.testimonial .pic{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 0 15px 15px 0;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.testimonial .testimonial-profile{
+    display: inline-block;
+    position: relative;
+    top: 15px;
+}
+.testimonial .title{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #f5f5f5;
+    text-transform: capitalize;
+    margin: 0 0 7px 0;
+}
+.testimonial .post{
+        display: block;
+    font-size: 14px;
+    color: #3c763d;
+}
+.testimonial .description{
+    padding: 20px 22px;
+    background: #f5f5f5;
+    font-size: 15px;
+    color: #060606;
+    line-height: 25px;
+    margin: 0;
+    position: relative;
+}
+.testimonial .description:before,
+.testimonial .description:after{
+    content: "";
+    border-width: 18px 0 0 18px;
+    border-style: solid;
+    border-color: #5d7aa7 transparent transparent;
+    position: absolute;
+    bottom: -18px;
+    left: 0;
+}
+.testimonial .description:after{
+    border-width: 18px 18px 0 0;
+    left: auto;
+    right: 0;
+}
+.owl-theme .owl-controls{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.owl-theme .owl-controls .owl-buttons div{
+    opacity: 0.8;
+    background: #777;
+}
+.owl-prev:before,
+.owl-next:before{
+    content: "\f053";
+    font-family: 'FontAwesome';
+    font-size: 20px;
+    color: #1f487e;
+}
+.owl-next:before{ content: "\f054"; }
+
     </style>
-    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+ <script type="text/javascript">
+$(document).ready(function(){
+    $("#testimonial-slider").owlCarousel({
+        items:2,
+        itemsDesktop:[1000,2],
+        itemsDesktopSmall:[979,2],
+        itemsTablet:[768,1],
+        pagination:false,
+        navigation:true,
+        navigationText:["",""],
+        autoPlay:true
+    });
+});
+   </script> 
 </head>
 
 
@@ -241,11 +333,6 @@
     <div class="container wp2">
     <h1 class="section-title">About the conference</h1>
  
-        
-    
-    
-  
-            
 
 <div class="row">
             <div class="col-lg-9 col-md-9 wp3 delay-05s">
@@ -288,158 +375,97 @@
             
         </div><!-- /.row -->
 
+    
+        </div>
+  </section> 
+
+
+
+ <section id="services">
+            
+    <div class="container wp2">
+    <h1 class="section-title">Services</h1>
+
+
         <div class="advantages" id="patrons">
         
         <hr>
         <div class="section-sub-title">
-            Patrons
+            Distributors
         </div>
         <div class="colored-line"></div>
         
-        <div class="container">
-        <div class="row">
-            <div class="col-md-12 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/actors/gv.jpeg" class="img-circle"></div>
-                <h4>Dr. G. Viswanathan</h4>
-                <p>
-                Founder & Chancellor, VIT University
-                </p> 
-            </div><!-- /.col-md-4 -->     
-        </div>
-        <div class="row">
-            <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/actors/sankar.jpeg" class="img-circle"></div>
-                <h4>Sankar Viswanathan</h4>
-                <p>
-                Vice President
-                </p> 
-            </div><!-- /.col-md-4 -->        
+            <div class="container">
             
-            <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/actors/sekar.jpeg" class="img-circle"></div>
-                <h4>Dr. Sekar Viswanathan</h4>
-                <p>
-                Vice President
-                </p> 
-            </div><!-- /.col-md-4 -->    
-            <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/actors/selvam.jpeg" class="img-circle"></div>
-                <h4>G V Selvam</h4>
-                <p>
-                Vice President
-                </p> 
-            </div><!-- /.col-md-4 -->  
-            <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/actors/kadhambari.jpeg" class="img-circle"></div>
-                <h4>Kadhambari S. Viswanathan</h4>
-                <p>
-                Assistant Vice President
-                </p> 
-            </div><!-- /.col-md-4 -->  
-            
-        </div>  
-        <div class="row">
-            <div class="col-md-3 advantages-item wp7 delay-05s">
-                
-            </div><!-- /.col-md-4 -->        
-            <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/actors/anand.jpeg" class="img-circle"></div>
-                <h4>Dr. Anand A. Samuel</h4>
-                <p>
-                Vice Chancellor
-                </p> 
-            </div><!-- /.col-md-4 -->        
-            
-            <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/actors/provc.jpg" class="img-circle"></div>
-                <h4>Dr. N. Sambandam</h4>
-                <p>
-                Pro-Vice Chancellor
-                </p> 
-            </div><!-- /.col-md-4 -->    
-            <div class="col-md-3 advantages-item wp7 delay-05s">
-                
-            </div><!-- /.col-md-4 -->   
-            
-        </div>
-
-
-
-
-		</div>
-        <div id="dates"  class="row">
-            <h2 class="section-sub-title">Important Dates</h2><br>
-            <div class="colored-line"></div>
-            <div class="col-md-12 wp4 delay-05s">
-                <div class="table-responisve text-center">
-                    <table class="table">
-                        <tbody>
-                            <tr>
-                                <td>First Call</td>
-                                <td>31<sup>st</sup> July, 2017</td>
-                            </tr> 
-                            <tr>
-                                <td>Abstract Submission Opens</td>
-                                <td>1<sup>st</sup> August, 2017</td>
-                            </tr> 
-                            <tr>
-                                <td>Abstract Submission Closes</td>
-                                <td>31<sup>st</sup> October, 2017</td>
-                            </tr> 
-                            <tr>
-                                <td>Notification of Acceptance</td>
-                                <td>15<sup>th</sup> November, 2017</td>
-                            </tr> 
-                            <tr>
-                                <td>Early Bird Registration</td>
-                                <td>15<sup>th</sup> November, 2017 to 15<sup>th</sup> December, 2017</td>
-                            </tr> 
-                            <tr>
-                                <td>Regular Registration starts</td>
-                                <td>16<sup>th</sup> December, 2017</td>
-                            </tr> 
-                            <tr>
-                                <td>Conference Dates</td>
-                                <td>8<sup>th</sup> - 10<sup>th</sup> February, 2018</td>
-                            </tr> 
-                        </tbody>                                                     
-                    </table>                           
+                <div class="row">
+                    <div class="col-md-3 advantages-item wp7 delay-05s">
+                        <div class="advantages-item-icon"><i class="fa fa-users fa-3" aria-hidden="true"></i></div>
+                        <h4>One Point Sale</h4>
+                    </div><!-- /.col-md-4 -->        
+                    
+                    <div class="col-md-3 advantages-item wp7 delay-05s">
+                        <div class="advantages-item-icon"><i class="fa fa-ambulance fa-3" aria-hidden="true"></i></div>
+                        <h4>Efficient Delivery Management</h4>
+                    </div><!-- /.col-md-4 -->    
+                    <div class="col-md-3 advantages-item wp7 delay-05s">
+                        <div class="advantages-item-icon"><i class="fa fa-credit-card" aria-hidden="true"></i></div>
+                        <h4>Easy Payment</h4>
+                    </div><!-- /.col-md-4 -->  
+                    <div class="col-md-3 advantages-item wp7 delay-05s">
+                        <div class="advantages-item-icon"><i class="fa fa-check-circle fa-3" aria-hidden="true"></i>
+</div>
+                        <h4>Varified Retailers</h4>
+                    </div><!-- /.col-md-4 -->  
+                    
                 </div>
+
             </div>
+
+            <hr>
+        <div class="section-sub-title">
+            Pharmacies
+        </div>
+        <div class="colored-line"></div>
+        
+            <div class="container">
+            
+                <div class="row">
+                    <div class="col-md-3 advantages-item wp7 delay-05s">
+                        <div class="advantages-item-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+                        <h4>Live Ordering System</h4>
+                    </div><!-- /.col-md-4 -->    
+                    
+                    <div class="col-md-3 advantages-item wp7 delay-05s">
+                        <div class="advantages-item-icon"><i class="fa fa-location-arrow" aria-hidden="true"></i></div>
+                        <h4>Live Tracking</h4>
+                    </div><!-- /.col-md-4 -->    
+                    <div class="col-md-3 advantages-item wp7 delay-05s">
+                        <div class="advantages-item-icon"><i class="fa fa-retweet" aria-hidden="true"></i></div>
+                        <h4>Easy Returns</h4>
+                    </div><!-- /.col-md-4 -->  
+                    <div class="col-md-3 advantages-item wp7 delay-05s">
+                        <div class="advantages-item-icon"><i class="fa fa-shopping-basket" aria-hidden="true"></i></div>
+                        <h4>Real-Time Inventory</h4>
+                    </div><!-- /.col-md-4 -->  
+                    
+                </div>
+                
+
+            </div>
+        
             
         </div>
         </div>
   </section> 
 
+
+
   <section id="who_we_are">              
     <div class="container">       
-            <div class="row">
-            <div class="col-lg-12 col-md-12 wp3 delay-05s">
-            <h2 class="sub-title">Abstracts and Publication</h2>  
-            <p>
-                Format for Abstract<br>
-                Authors are requested to follow the standard format given below for submitting the abstracts.<br>
-                Abstract should be word file. (*.doc or .docx)<br>
-                Abstracts should be submitted by mail to the conference mail id : vit5icnn2018@gmail.com
-            </p>
-            </div>
-        </div><!-- /.row -->
-        <div class="row">
-            <div class="col-lg-12 col-md-12 wp3 delay-05s">
-                <a href="Template_of_abstract.pdf" target="_blank"><button class="btn-default">Download the template of abstract</button></a>
-            </div>
-        </div>
-    </div><!-- /.container --> 
-    </section><!-- /#about-sub -->   
-  
-  
-  
-    <!-- Actors Section -->
-    <section id="client">
-    <div class="container"> 
+           
         <div class="row">      
         <div class="col-lg-12">
-		<h1 class="section-title">Committee</h1>
+		<h1 class="section-title">Who We Are</h1>
 			
             
 				<div class="col-lg-6">
@@ -487,11 +513,8 @@
                 <p></p>
             </div>
         </div>
-        </div><!-- /.container --> 
-        
-    
- 
-    </div><!-- /.container --> 
+         
+
     
  
     </div><!-- /.container --> 
@@ -499,183 +522,118 @@
     
     
     <!-- Gallery Section -->
-   <section id="testimonials">
+   <section id="client">
  	<div class="overlay"></div>
     
     <div class="section-wrapper wp8 delay-05s">
-    <h1 class="section-title">Conference Speakers (Plenary/Keynote)</h1>
+    <h1 class="section-title">Clients</h1>
             <div >
                   
 				<div class="container">
         <div class="row">
             <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/actors/tatsumi.jpg" class="img-circle"></div>
-                <h4>Dr. Tatsumi Ishihara</h4>
-                <p>
-                Kyushu University, Japan
-                </p> 
+                <div class="advantages-item-icon"><img src="img/logo_white.png" class="img-responsive img-square"></div>
+                <h4>NEW LIFETIME MEDICALS</h4>
+                
             </div><!-- /.col-md-4 -->     
             <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/actors/enrico.jpg" class="img-circle"></div>
-                <h4>Dr. Enrico Traversa</h4>
-                <p>
-                University of Roma, Torvergata, Italy
-                </p> 
+                <div class="advantages-item-icon"><img src="img/care_chemist.png" class="img-responsive img-square"></div>
+                <h4>CARE CHEMIST</h4>
             </div><!-- /.col-md-4 -->        
             
             <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/actors/alberto.jpg" class="img-circle"></div>
-                <h4>Dr. Alberto Rainer</h4>
-                <p>
-                Università Campus Bio-Medico di Roma, Roma Italy
-                </p> 
+                <div class="advantages-item-icon"><img src="img/green_plus.jpg" class="img-responsive img-square"></div>
+                <h4>GREEN PLUS</h4>
             </div><!-- /.col-md-4 -->    
             <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/actors/luca.jpg" class="img-circle"></div>
-                <h4>Dr. Luca Malfatti</h4>
-                <p>
-                D.A.D.U. - Università di Sassari, Alghero
-                </p> 
+                <div class="advantages-item-icon"><img src="img/medicure.png" class="img-responsive img-square"></div>
+                <h4>MEDICURE PHARMA</h4>
             </div><!-- /.col-md-4 -->  
         </div>
-        <div class="row">
+          
+          <div class="row">
             <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/actors/steve.jpg" class="img-circle"></div>
-                <h4>Dr. Steve Dunn</h4>
-                <p>
-                Queen Mary University of London, United Kingdom
-                </p> 
+                <div class="advantages-item-icon"><img src="img/BM.jpeg" class="img-responsive img-circle"></div>
+                <h4>Balaji Medicals and General store </h4>
+                
+            </div><!-- /.col-md-4 -->     
+            <div class="col-md-3 advantages-item wp7 delay-05s">
+                <div class="advantages-item-icon"><img src="img/MP.jpg" class="img-responsive img-circle"></div>
+                <h4>Mehtab Pharma </h4>
             </div><!-- /.col-md-4 -->        
             
             <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/actors/matjaz.jpg" class="img-circle"></div>
-                <h4>Dr. Matjaz Valant</h4>
-                <p>
-                University of Nova Gorica, Slovenia
-                </p> 
+                <div class="advantages-item-icon"><img src="img/PM.png" class="img-responsive img-circle"></div>
+                <h4>Prema medicals</h4>
             </div><!-- /.col-md-4 -->    
             <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/actors/tetiana.png" class="img-circle"></div>
-                <h4>Dr. Tetiana Tatarchuk</h4>
-                <p>
-                Vasyl Stefanyk Precarpathian National University, Ukraine
-                </p> 
-            </div><!-- /.col-md-4 -->  
-            <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/actors/md.png" class="img-circle"></div>
-                <h4>Dr. Mohamed Bououdina</h4>
-                <p>
-                University of Bahrain, Bahrain
-                </p> 
-            </div><!-- /.col-md-4 -->  
-            
-        </div>  
-        <div class="row">
-            <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/actors/kathi.jpg" class="img-circle"></div>
-                <h4>Dr. P. Kathirgamanathan</h4>
-                <p>
-                Brunel University, London, UK
-                </p> 
-            </div><!-- /.col-md-4 -->        
-            
-            <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/actors/russell.jpg" class="img-circle"></div>
-                <h4>Dr Russell Binions</h4>
-                <p>
-                Queen Mary University of London, UK
-                </p> 
-            </div><!-- /.col-md-4 -->    
-            <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/actors/jeremy.png" class="img-circle"></div>
-                <h4>Dr. Jeremy Ball</h4>
-                <p>
-                London South Bank University, United Kingdom
-                </p> 
-            </div><!-- /.col-md-4 -->  
-            <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/actors/anna.jpg" class="img-circle"></div>
-                <h4>Dr. Anna-Karin Axelsson</h4>
-                <p>
-                London South Bank University, UK
-                </p> 
-            </div><!-- /.col-md-4 -->  
-            
-        </div>  
-        <div class="row">
-            <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/actors/john.jpg" class="img-circle"></div>
-                <h4>Dr. John V Kennedy</h4>
-                <p>
-                National Isotope Centre, New Zealand
-                </p> 
-            </div><!-- /.col-md-4 -->  
-            <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/actors/peter.jpg" class="img-circle"></div>
-                <h4>Dr. Peter G. Kazansky</h4>
-                <p>
-                University of Southampton, UK
-                </p> 
-            </div><!-- /.col-md-4 -->  
-            <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/actors/prabeerBhai.jpg" class="img-circle"></div>
-                <h4>Dr. Prabeer Barpanda</h4>
-                <p>
-                IISc, Bangalore, India
-                </p> 
-            </div><!-- /.col-md-4 -->  
-            <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/actors/basu.jpg" class="img-circle"></div>
-                <h4>Dr. RN Basu</h4>
-                <p>
-                CGCRI, Kolkata, India
-                </p> 
-            </div><!-- /.col-md-4 -->  
-            
-        </div>
-        <div class="row">
-            <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/actors/taner.jpg" class="img-circle"></div>
-                <h4>Dr. Taner Akbay</h4>
-                <p>
-                Kyushu University, Japan
-                </p> 
-            </div><!-- /.col-md-3 -->  
-            <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/actors/vento.jpg" class="img-circle"></div>
-                <h4>Dr. Fiorenzo Vetrone</h4>
-                <p>
-                Université du Québec, Canada
-                </p> 
-            </div><!-- /.col-md-3 -->  
-            <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/actors/concina.jpg" class="img-circle"></div>
-                <h4>Dr. Isabella Concina</h4>
-                <p>
-                Luleå University of Technology, Sweden
-                </p> 
-            </div><!-- /.col-md-3 -->  
-            <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/actors/amit.jpg" class="img-circle"></div>
-                <h4>Dr. Amit Biswas</h4>
-                <p>
-                Dr. Reddy's Lab, Hyderabad
-                </p> 
+                <div class="advantages-item-icon"><img src="img/GP.png" class="img-responsive img-circle"></div>
+                <h4>garuda pharma</h4>
             </div><!-- /.col-md-4 -->  
         </div>
-        <div class="row">
-            <div class="col-md-12 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/actors/ganpati.jpg" class="img-circle"></div>
-                <h4>Dr. Ganpati Ramanath</h4>
-                <p>
-                Rensselaer Polytechnic Institute, USA
-                </p> 
-            </div><!-- /.col-md-3 -->  
-        </div>
+          
+        
+        
+       
           
             </div>
     </div>
-	</section>    
+	</section>  
+
+
+    <section id="testimonials">
+    <div class="overlay"></div>
+    
+    <div class="section-wrapper wp8 delay-05s">
+    <h1 class="section-title">Testimonials</h1>
+            
+                  
+                <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div id="testimonial-slider" class="owl-carousel">
+                <div class="testimonial">
+                    <div class="pic">
+                        <img src="img/img-1.jpg">
+                    </div>
+                    <div class="testimonial-profile">
+                        <h3 class="title">williamson</h3>
+                        <span class="post">Web Developer</span>
+                    </div>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam varius eros consequat auctor gravida. Fusce tristique lacus at urna sollicitudin pulvinar. Suspendisse hendrerit ultrices mauris.
+                    </p>
+                </div>
+                <div class="testimonial">
+                    <div class="pic">
+                        <img src="img/img-2.jpg">
+                    </div>
+                    <div class="testimonial-profile">
+                        <h3 class="title">Kristina</h3>
+                        <span class="post">Web Designer</span>
+                    </div>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam varius eros consequat auctor gravida. Fusce tristique lacus at urna sollicitudin pulvinar. Suspendisse hendrerit ultrices mauris.
+                    </p>
+                </div>
+                <div class="testimonial">
+                    <div class="pic">
+                        <img src="img/img-3.jpg">
+                    </div>
+                    <div class="testimonial-profile">
+                        <h3 class="title">Steve Thomas</h3>
+                        <span class="post">Web Developer</span>
+                    </div>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam varius eros consequat auctor gravida. Fusce tristique lacus at urna sollicitudin pulvinar. Suspendisse hendrerit ultrices mauris.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+    </section>     
 
 	<!-- Contact Section -->
     <section id="contact_us">
@@ -685,41 +643,9 @@
 
         <div class="row">
 
-        <div class="col-lg-12 wp11 text-center " style="font-size: 20px;">
-            <strong>
-                <h2 style="color: #99FF66;">Dr. Atanu Dutta</h2>
-                Convenor<br>
-                Professor and Dean<br>
-                School of Advanced Sciences<br>
-                <i class="fa fa-phone"></i> <a href="tel:+919159709416">+91-9159709416</a><br>
-            </strong>
-        </div><!-- /.col-lg-12 --> <hr>
-        <div class="col-lg-6 wp11 text-center" style="font-size: 20px;">
-            <strong>
-                <h2 style="color: #99FF66;">Dr. N. Manikandan</h2>
-                Organizing Secretary<br>
-                School of Advanced Sciences<br>
-                <i class="fa fa-phone"></i> <a href="tel:+919445822854">+91-9445822854</a><br>
-            </strong>
-        </div><!-- /.col-lg-12 --> 
-        <div class="col-lg-6 wp11 text-center" style="font-size: 20px;">
-            <strong>
-                <h2 style="color: #99FF66;">Dr. L. John Kennedy</h2>
-                Organizing Secretary<br>
-                School of Advanced Sciences<br>
-                <i class="fa fa-phone"></i> <a href="tel:+919940130464">+91-9940130464</a><br>
-            </strong>
-        </div><!-- /.col-lg-12 --> <hr>
-        <div class="col-lg-12 wp11 text-center" style="font-size: 20px;">
-            <strong>
-                <i class="fa fa-phone"></i> <a href="tel:+914439931049">+91-44- 3993-1049</a>, VIT University Chennai<br>
-                <i class="fa fa-envelope"></i> <a href="mailto:vit5icnn2018@gmail.com">vit5icnn2018@gmail.com</a>
-            </strong>
-        </div><!-- /.col-lg-12 --> <hr>
         <div class="col-lg-12 wp11">
             <div class="comment-form wp4 delay-05s">
-              <h2 class="sub-title">Information Desk</h2>
-              <p>Please let us know if we can help you to know more about the conference</p>
+              
               <form class="comment-form-wrapper" action="email.php" method="get" enctype="text/plain" target="_top">
                       <div class="row">
                       <div class="col-md-12 no-padding">
@@ -738,17 +664,10 @@
                               <input type="text" placeholder="Your address" name="address" Required>
                           </div>
                       </div>
-                      <div class="col-md-12 no-padding">
-                          <div class="col-lg-6">
-                              <input type="text" placeholder="Your city & state" name="citynstate" Required>
-                          </div>
-                          <div class="col-lg-6">
-                              <input type="text" placeholder="Your country" name="country" Required>
-                          </div>
-                      </div>
+                      
                       <div class="col-md-12">
                           <textarea id="comment-text-area" placeholder="Your message" name="message" rows="5" Required></textarea>
-                          <div class="col-md-3 col-xs-offset-3"><button value="clear"  class="clear-comment-form" onclick="javascript:eraseText();">Clear text<i class="fa fa-times"></i></button></div>
+                          <div class="col-md-3 col-xs-offset-3"><button type="reset" value="clear"  class="clear-comment-form" >Clear text<i class="fa fa-times"></i></button></div>
                           <div class="col-md-3"><button name="submit" type="submit">Send<i class="fa fa-chevron-right"></i></button></div>
                          
                       </div>
@@ -769,12 +688,14 @@
             </div><!-- /.col-lg-12 --> 
             
         </div><!-- /.row --> 
+
+        
+
         <div class="row">
         
         <div class="copyright">
-        © Created for VIT Chennai Campus</a>
+        © Created for <b>medicento</b></a>
        	<br>
-        <br>By <a href="https://prashantkbhardwaj.github.io">Prashant Bhardwaj</a>
         Visitor Count
         <div align=center><a href='http://www.counter12.com'><img src='http://www.counter12.com/img-B3bwDb1YYzd56d5a-13.gif' border='0' alt='free web counter'></a><script type='text/javascript' src='http://www.counter12.com/ad.js?id=B3bwDb1YYzd56d5a'></script></div>
         </div>

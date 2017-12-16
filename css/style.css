@@ -1697,10 +1697,10 @@ h1.section-title:after{
 -----------------------------------------------------------*/
 
 .advantages {
-	margin-top: 20px;
-	padding-top: 30px;
-	padding-bottom: 20px;
-	background: #333333;
+	margin-top: -234px;
+    padding-top: 55px;
+    padding-bottom: 90px;
+    background: #333333;
 }
 
 .advantages-item {
