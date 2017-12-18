@@ -350,7 +350,7 @@ body p{
 	text-transform: uppercase;
 }
 .features .col-md-3:hover .single-service h3{
-	color: #eee;
+	color: #333;
 }
 .other-features{
 	padding:150px 0;
