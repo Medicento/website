@@ -21,52 +21,14 @@
         <link rel="stylesheet" href="css/responsive.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-        <style type="text/css">
-        	* { box-sizing: border-box; }
-.video-background {
-  background: #000;
-  position: fixed;
-  top: 0; right: 0; bottom: 0; left: 0;
-  z-index: -99;
-}
-.video-foreground,
-.video-background iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-}
-#vidtop-content {
-	top: 0;
-	color: #fff;
-}
-.vid-info { position: absolute; top: 0; right: 0; width: 33%; background: rgba(0,0,0,0.3); color: #fff; padding: 1rem; font-family: Avenir, Helvetica, sans-serif; }
-.vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
-.vid-info a { display: block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
-@media (min-aspect-ratio: 16/9) {
-  .video-foreground { height: 300%; top: -100%; }
-}
-@media (max-aspect-ratio: 16/9) {
-  .video-foreground { width: 300%; left: -100%; }
-}
-@media all and (max-width: 600px) {
-.vid-info { width: 50%; padding: .5rem; }
-.vid-info h1 { margin-bottom: .2rem; }
-}
-@media all and (max-width: 500px) {
-.vid-info .acronym { display: none; }
-}
-        </style>
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 		
-		<section class="intro"  id="home">
-			<div class="menu-bar menu">
+		<section class="intro video-container"  id="home">
+			<div class="menu-bar menu title-container">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-4">
@@ -89,19 +51,8 @@
 				</div>
 			</div>
 			<!-- Menu Ends here -->
-			<div class="intro-content">
+			<div class="intro-content description">
 				<div class="container">
-					
-
-					<div class="video-background">
-    <div class="video-foreground">
-      <iframe src="https://www.youtube.com/embed/W0LHTWG-UmQ?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=W0LHTWG-UmQ" frameborder="0" allowfullscreen></iframe>
-    </div>
-  </div>
-
-
-
-
 					<div class="row">
 						<div class="col-md-4 col-sm-6 col-xs-12 intro-image">
 							<img src="images/hand.png" alt="" />
@@ -119,6 +70,9 @@
 					</div>
 				</div>
 			</div>
+			<div class="filter"></div>
+        	<video autoplay loop class="fillWidth" muted>
+            <source src="images/My Movie.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.</video>
 		</section>
 		<!-- Intro Section Ends -->
 		
@@ -422,6 +376,81 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/owl.carousel.min.js"></script>
+        <script type="text/javascript">
+        	/** Document Ready Functions **/
+			/********************************************************************/
+
+			$( document ).ready(function() {
+
+			    // Resive video
+			    scaleVideoContainer();
+
+			    initBannerVideoSize('.video-container .poster img');
+			    initBannerVideoSize('.video-container .filter');
+			    initBannerVideoSize('.video-container video');
+			        
+			    $(window).on('resize', function() {
+			        scaleVideoContainer();
+			        scaleBannerVideoSize('.video-container .poster img');
+			        scaleBannerVideoSize('.video-container .filter');
+			        scaleBannerVideoSize('.video-container video');
+			    });
+
+			});
+
+			/** Reusable Functions **/
+			/********************************************************************/
+
+			function scaleVideoContainer() {
+
+			    var height = $(window).height();
+			    var unitHeight = parseInt(height) + 'px';
+			    $('.homepage-hero-module').css('height',unitHeight);
+
+			}
+
+			function initBannerVideoSize(element){
+			    
+			    $(element).each(function(){
+			        $(this).data('height', $(this).height());
+			        $(this).data('width', $(this).width());
+			    });
+
+			    scaleBannerVideoSize(element);
+
+			}
+
+			function scaleBannerVideoSize(element){
+
+			    var windowWidth = $(window).width(),
+			        windowHeight = $(window).height(),
+			        videoWidth,
+			        videoHeight;
+			    
+			    console.log(windowHeight);
+
+			    $(element).each(function(){
+			        var videoAspectRatio = $(this).data('height')/$(this).data('width'),
+			            windowAspectRatio = windowHeight/windowWidth;
+
+			        if (videoAspectRatio > windowAspectRatio) {
+			            videoWidth = windowWidth;
+			            videoHeight = videoWidth * videoAspectRatio;
+			            $(this).css({'top' : -(videoHeight - windowHeight) / 2 + 'px', 'margin-left' : 0});
+			        } else {
+			            videoHeight = windowHeight;
+			            videoWidth = videoHeight / videoAspectRatio;
+			            $(this).css({'margin-top' : 0, 'margin-left' : -(videoWidth - windowWidth) / 2 + 'px'});
+			        }
+
+			        $(this).width(videoWidth).height(videoHeight);
+
+			        $('.homepage-hero-module .video-container video').addClass('fadeIn animated');
+			        
+
+			    });
+			}
+        </script>
 		<script type="text/javascript">
 			$(document).ready(function() {
      
