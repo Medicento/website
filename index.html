@@ -1,746 +1,458 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Emmo - App Landing Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="5th ICNN 2018, VITCC">
-    <meta name="author" content="Prashant Bhardwaj">
-
-    <title>MEDICENTO</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-
-    <!-- Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <!-- Custom Theme CSS -->
-    <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/glow.css">
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
-   
-    <!-- Advanced CSS -->
-    <link href="css/animate.css" rel="stylesheet">
-	<link href="js/lib/owl-carousel/owl.carousel.css" rel="stylesheet">
-	<link href="js/lib/owl-carousel/owl.theme.css" rel="stylesheet">
-	<link href="js/lib/owl-carousel/owl.transitions.css" rel="stylesheet">
-	<link href="js/lib/magnific-popup/magnific-popup.css" rel="stylesheet">
-    <link href="js/lib/video/YTPlayer.css" rel="stylesheet">
-    <link href="js/lib/flipclock/flipclock.css" rel="stylesheet">
-    <style type="text/css">
-        .img-circle {
-            border-radius: 50%;
-        }
-        .lists {
-            list-style: none;
-            padding: 0;
-        }
-
-        #circle {
-                background-color:white;
-                width:200px; /* You can define it by % also */
-                height:200px; /* You can define it by % also */
-                position:relative;
-                border:1px solid black;
-                border-radius: 50%;
-                opacity: 0.5;
-                filter: alpha(opacity=50);
-                }
-
-        #small-circle {
-                background-color:green;
-                top: 13%; /* of the container */
-                width:75%; /* of the container */
-                height:75%; /* of the container */
-                position: relative;
-                border:1px solid black;
-                border-radius: 50%;
-                opacity: 1;
-                filter: alpha(opacity=100);
-}
-        
-        #circle1 {
-        background-color: white;
-    width: 200px;
-    height: 200px;
-    position: relative;
-    border: 1px solid black;
-    border-radius: 50%;
-    opacity: 0.5;
-        }
-
-        #small-circle1 {
-       background-color:green;
-                top: 13%;  /* of the container */
-                width:75%; /* of the container */
-                height:75%; /* of the container */
-                position: relative;
-                border:1px solid black;
-                border-radius: 50%;
-                opacity: 1;
-                filter: alpha(opacity=100);
-}
- #circle2 {
-            background-color: white;
-    width: 200px;
-    height: 200px;
-    position: relative;
-    border: 1px solid black;
-    border-radius: 50%;
-    opacity: 0.5;
-        
-        }
-
-        #small-circle2 {
-       background-color:green;
-                top: 13%;  /* of the container */
-                width:75%; /* of the container */
-                height:75%; /* of the container */
-                position: relative;
-                border:1px solid black;
-                border-radius: 50%;
-                opacity: 1;
-                filter: alpha(opacity=100);
-}
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
         
 
- 
-.testimonial{ margin: 0 20px 50px; }
-.testimonial .pic{
-    display: inline-block;
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    margin: 0 15px 15px 0;
-}
-.testimonial .pic img{
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
-}
-.testimonial .testimonial-profile{
-    display: inline-block;
-    position: relative;
-    top: 15px;
-}
-.testimonial .title{
-    display: block;
-    font-size: 20px;
-    font-weight: 600;
-    color: #f5f5f5;
-    text-transform: capitalize;
-    margin: 0 0 7px 0;
-}
-.testimonial .post{
-        display: block;
-    font-size: 14px;
-    color: #3c763d;
-}
-.testimonial .description{
-    padding: 20px 22px;
-    background: #f5f5f5;
-    font-size: 15px;
-    color: #060606;
-    line-height: 25px;
-    margin: 0;
-    position: relative;
-}
-.testimonial .description:before,
-.testimonial .description:after{
-    content: "";
-    border-width: 18px 0 0 18px;
-    border-style: solid;
-    border-color: #5d7aa7 transparent transparent;
-    position: absolute;
-    bottom: -18px;
-    left: 0;
-}
-.testimonial .description:after{
-    border-width: 18px 18px 0 0;
-    left: auto;
-    right: 0;
-}
-.owl-theme .owl-controls{
-    margin-top: 10px;
-    margin-left: 30px;
-}
-.owl-theme .owl-controls .owl-buttons div{
-    opacity: 0.8;
-    background: #777;
-}
-.owl-prev:before,
-.owl-next:before{
-    content: "\f053";
-    font-family: 'FontAwesome';
-    font-size: 20px;
-    color: #1f487e;
-}
-.owl-next:before{ content: "\f054"; }
-
-    </style>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
- <script type="text/javascript">
-$(document).ready(function(){
-    $("#testimonial-slider").owlCarousel({
-        items:2,
-        itemsDesktop:[1000,2],
-        itemsDesktopSmall:[979,2],
-        itemsTablet:[768,1],
-        pagination:false,
-        navigation:true,
-        navigationText:["",""],
-        autoPlay:true
-    });
-});
-   </script> 
-</head>
-
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
-
-	<!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top wp1" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="#page-top">
-                    <i class="fa fa-heartbeat" aria-hidden="true"></i>MediCento
-                </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#home">Home</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#services">Services</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#who_we_are">Who We Are</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#retailers">Retailers</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#testimonials">Testimonials</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact_us">Contact Us</a>
-                    </li>
-                    
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-   
-    <!-- Intro Section -->
-    <section id="intro">
-    <div class="video-content">  
-    <div class="video-image wp1 delay-1s">
-        <video id="video_background" style="width:100%;" class="video-background" src="img/My Movie.mp4" autoplay="autoplay" loop></video>
-    	
-    </div>
-    
-    <div class="overlay">
-
-        <div class="container-wrapper">
-           <div class="container">
-
-                
-                <center>
-                <div class="row">
-                    <div class="col-sm-1"> 
-                    </div>
-                    <div class="col-sm-3"> 
-                    </div>
-                    <div class="col-sm-3"> 
-                         <div id="circle1">
-                            <div id="small-circle1">
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3"> 
-                    </div>
-                    <div class="col-sm-1"> 
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-sm-1"> 
-                        
-                    </div>
-                    <div class="col-sm-3"> 
-                        <div id="circle">
-                            <div id="small-circle">
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3"> 
-                        
-                    </div>
-
-                    <div class="col-sm-3"> 
-                         <div id="circle2">
-                            <div id="small-circle2">
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-1"> 
-                        
-                    </div>
-                </div>
-                </center>
-        	</div>
-        </div>
-	</div>
-        </div>
-
-    </section><!-- /#intro --> 
-    
-
-    <!-- About Section -->
-    <section id="about">
-            <div class="more page-scroll" id="more">
-            <a href="#about"><i class="fa fa-angle-down"></i></a>
-            </div>
-            
-    <div class="container wp2">
-    <h1 class="section-title">About Us</h1>
- 
-
-<div class="row">
-            <div class="col-lg-9 col-md-9 wp3 delay-05s">
-            <h2 class="sub-title">About MEDICENTO</h2>  
-            <p>
-                Medicento is a health Tech start-up in pharmaceutical space  building up an unified channel for seamless flow of pharmaceutical products using data driven approach .
-We intent to change the healthcare ecosystem by introducing demand(Pull based )flow of medicine rather than Push based , thus optimizing Inventory, delivery model and minimizing expired products 
-Our smart AI based inventory Management system would segregate products based on the demand of the market thus decreasing stock in period and generating better revenues.
-            </p>
-            
-            <p> 
-            
-            
-            
-            
-            </div><!-- /.col-lg-9 -->
-            
-            <div class="col-lg-3 col-md-3" id="counters">
-                <ul class="counters wp3">
-                <li>
-                    <span id="counter-1">0</span><span>+</span>
-                    <h5>Orders from all over Retailers</h5>
-                </li>
-                
-                <!-- <li>
-                    <span id="counter-2">0</span>
-                    <h5>Job offers from top companies</h5>
-                </li> -->
-                
-                <li>
-                    <span id="counter-3">0</span><span>+</span>
-                    <h5>Clients</h5>
-                </li>                        
-                </ul>
-            </div><!-- /.col-lg-3 -->
-            
-            
-            
-        </div><!-- /.row -->
-
-    
-        </div>
-  </section> 
-
-
-
- <section id="services">
-            
-    <div class="container wp2">
-    <h1 class="section-title">Services</h1>
-
-
-        <div class="advantages" id="patrons">
-        
-        <hr>
-        <div class="section-sub-title">
-            Distributors
-        </div>
-        <div class="colored-line"></div>
-        
-            <div class="container">
-            
-                <div class="row">
-                    <div class="col-md-3 advantages-item wp7 delay-05s">
-                        <div class="advantages-item-icon"><i class="fa fa-users fa-3" aria-hidden="true"></i></div>
-                        <h4>One Point Sale</h4>
-                    </div><!-- /.col-md-4 -->        
-                    
-                    <div class="col-md-3 advantages-item wp7 delay-05s">
-                        <div class="advantages-item-icon"><i class="fa fa-ambulance fa-3" aria-hidden="true"></i></div>
-                        <h4>Efficient Delivery Management</h4>
-                    </div><!-- /.col-md-4 -->    
-                    <div class="col-md-3 advantages-item wp7 delay-05s">
-                        <div class="advantages-item-icon"><i class="fa fa-credit-card" aria-hidden="true"></i></div>
-                        <h4>Easy Payment</h4>
-                    </div><!-- /.col-md-4 -->  
-                    <div class="col-md-3 advantages-item wp7 delay-05s">
-                        <div class="advantages-item-icon"><i class="fa fa-check-circle fa-3" aria-hidden="true"></i>
-</div>
-                        <h4>Verified Retailers</h4>
-                    </div><!-- /.col-md-4 -->  
-                    
-                </div>
-
-            </div>
-
-            <hr>
-        <div class="section-sub-title">
-            Pharmacies
-        </div>
-        <div class="colored-line"></div>
-        
-            <div class="container">
-            
-                <div class="row">
-                    <div class="col-md-3 advantages-item wp7 delay-05s">
-                        <div class="advantages-item-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
-                        <h4>Live Ordering System</h4>
-                    </div><!-- /.col-md-4 -->    
-                    
-                    <div class="col-md-3 advantages-item wp7 delay-05s">
-                        <div class="advantages-item-icon"><i class="fa fa-location-arrow" aria-hidden="true"></i></div>
-                        <h4>Live Tracking</h4>
-                    </div><!-- /.col-md-4 -->    
-                    <div class="col-md-3 advantages-item wp7 delay-05s">
-                        <div class="advantages-item-icon"><i class="fa fa-retweet" aria-hidden="true"></i></div>
-                        <h4>Easy Returns</h4>
-                    </div><!-- /.col-md-4 -->  
-                    <div class="col-md-3 advantages-item wp7 delay-05s">
-                        <div class="advantages-item-icon"><i class="fa fa-shopping-basket" aria-hidden="true"></i></div>
-                        <h4>Real-Time Inventory</h4>
-                    </div><!-- /.col-md-4 -->  
-                    
-                </div>
-                
-
-            </div>
-        
-            
-        </div>
-        </div>
-  </section> 
-
-
-
-  <section id="who_we_are">              
-    <div class="container">       
-           
-        <div class="row">      
-        <div class="col-lg-12">
-		<h1 class="section-title">Who We Are</h1>
-			
-            
-				<div class="col-lg-6">
-                <h2 class="sub-title">What We Do</h2>
-                    We are the bunch of hustlers creating revolutionary market place, augmented with latest technology which will ensure better experience to end customer 
-                </div>
-				<div class="col-lg-6">
-                    <h2 class="sub-title">Mission</h2>
-                    Dr. Sabu Thomas, Mahatma Gandhi University, Kerala  Dr. K. Nandakumar, Mahatma Gandhi University, Kerala
-                     Dr. R.N. Basu, CGCRI, Kolakata
-                     Dr. Prabeer Barpanda, Indian Institute of Science
-                     Dr. R. Vijayaraghavan, VIT University, Vellore
-                     Dr. Ravikumar, VP and Global Head of Analytical R&D, Reddy’s Lab
-                     Dr. Amit Biswas, Executive Vice President-Integrated Product Development, Reddy’s Lab
-                     Dr. Mainak Roy, BARC Mumbai
-                </div>     
-                
-				</div>           
-                
-		</div><!-- /.col-lg-12 -->        
-		</div><!-- /.row -->  
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-sub-title">Organizers</h2>
-                Dr. Atanu Dutta –Convener<br>
-                Dr. N. Manikandan –Organising Secretary<br>
-                Dr. L. John Kennedy – Organising Secretary<br>
-                <p></p>
-            </div>
-        </div>
-         
-
-    
- 
-    </div><!-- /.container --> 
-	</section><!-- /#actors --> 
-    
-    
-    <!-- Gallery Section -->
-   <section id="retailers">
- 	<div class="overlay"></div>
-    
-    <div class="section-wrapper wp8 delay-05s">
-    <h1 class="section-title">Retailers</h1>
-            <div >
-                  
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.theme.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/slicknav.min.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+		
+		<section class="intro"  id="home">
+			<div class="menu-bar menu">
 				<div class="container">
-        <div class="row">
-            <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/logo_white.png" class="img-responsive img-square"></div>
-                <h4>NEW LIFETIME MEDICALS</h4>
-                
-            </div><!-- /.col-md-4 -->     
-            <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/care_chemist.png" class="img-responsive img-square"></div>
-                <h4>CARE CHEMIST</h4>
-            </div><!-- /.col-md-4 -->        
-            
-            <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/green_plus.jpg" class="img-responsive img-square"></div>
-                <h4>GREEN PLUS</h4>
-            </div><!-- /.col-md-4 -->    
-            <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/medicure.png" class="img-responsive img-square"></div>
-                <h4>MEDICURE PHARMA</h4>
-            </div><!-- /.col-md-4 -->  
-        </div>
-          
-          <div class="row">
-            <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/BM.jpeg" class="img-responsive img-circle"></div>
-                <h4>Balaji Medicals and General store </h4>
-                
-            </div><!-- /.col-md-4 -->     
-            <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/MP.jpg" class="img-responsive img-circle"></div>
-                <h4>Mehtab Pharma </h4>
-            </div><!-- /.col-md-4 -->        
-            
-            <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/PM.png" class="img-responsive img-circle"></div>
-                <h4>Prema medicals</h4>
-            </div><!-- /.col-md-4 -->    
-            <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/GP.png" class="img-responsive img-circle"></div>
-                <h4>garuda pharma</h4>
-            </div><!-- /.col-md-4 -->  
-        </div>
-          
-        
-        
-       
-          
-            </div>
-    </div>
-	</section>  
+					<div class="row">
+						<div class="col-md-4">
+							<div id="logo">		
+								<a href=""><img src="images/logo.png" alt="" title=""  height="23px" style="float: left;"/></a>
+							</div>
+						</div>
+						<div class="col-md-8">
+							<ul class="list-unstyled" id="main-menu">
+								<li><a class="active" href="#home">Home</a></li>
+								<li><a href="#features">Features</a></li>
+								<li><a href="#testimonial">Testimonial</a></li>
+								<li><a href="#screenshots">Screenshot</a></li>
+								<li><a href="#clients">Clients</a></li>
+								<li><a href="#subscribe">Subscribe</a></li>
+								<li><a href="#contact">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Menu Ends here -->
+			<div class="intro-content">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-sm-6 col-xs-12 intro-image">
+							<img src="images/hand.png" alt="" />
+						</div>
+						<div class="col-md-8 col-sm-6 col-xs-12 intro-texts">
+							<h1>Present Your Awesome App Here</h1>
+							<span>Everything you need to have in order to build a stunning website.</span>
+							<ul class="list-unstyled">
+								<li><a href="">Contact Us</a></li>
+								<li><a href="">About App</a></li>
+								<li><a href="">Subscribe</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Intro Section Ends -->
+		
+		<section class="features" id="features">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12 wow fadeIn">
+						<h2>Amazing Nexa Features</h2>
+					</div>
+					<div class="col-md-3 col-sm-6 wow fadeInLeft">
+						<div class="single-service">
+							<p style="background:#EE3867;"><i class="fa fa-heart-o"></i></p>
+							<h3>Awesome Design</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend metus.</p>
+							<p><a href="">Read More</a></p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 wow fadeInLeft">
+						<div class="single-service">
+							<p style="background:#3DB39D;"><i class="fa fa-pencil"></i></p>
+							<h3>Easy Customizable</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend metus.</p>
+							<p><a href="">Read More</a></p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 wow fadeInRight">
+						<div class="single-service">
+							<p style="background:#57C7ED;"><i class="fa fa-mobile"></i></p>
+							<h3>Responsive Design</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend metus.</p>
+							<p><a href="">Read More</a></p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 wow fadeInRight">
+						<div class="single-service">
+							<p style="background:#324E5C;"><i class="fa fa-smile-o"></i></p>
+							<h3>Clean Code</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend metus.</p>
+							<p><a href="">Read More</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Features Section Ends Here -->
+		
+		<section class="other-features">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5 col-sm-5 wow fadeIn">
+						<img src="images/nexa-mob.png" alt="" />
+					</div>
+					<div class="col-md-7 col-sm-7 wow fadeIn">
+						<h2>About Our Other Features</h2>
+						<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend metus dapibus tincidunt suscipit consectetur adipiscing elit Mauris eleifend metus dapibus.</span>
+						<ul class="list-unstyled">
+							<li><i class="fa fa-cogs"></i> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend metus dapibus tincidunt suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p></li>
+							<li><i class="fa fa-cogs"></i> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend metus dapibus tincidunt suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></li>
+							<li><i class="fa fa-cogs"></i> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend metus dapibus tincidunt suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></li>
+							<li><i class="fa fa-cogs"></i> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend metus dapibus tincidunt suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--Other Features Ends Here-->
+		
+		<section class="app-screenshot">
+			<div class="container" id="screenshots">
+				<div class="row">
+					<div class="col-md-12 wow fadeInUp">
+						<h2>Awesome Screen Name</h2>
+					</div>
+					<div id="owl-example" class="owl-carousel col-md-12 wow fadeInUp">
+						<div><img src="images/1.jpg" alt="" /></div>
+						<div><img src="images/2.jpg" alt="" /></div>
+						<div><img src="images/3.jpg" alt="" /></div>
+						<div><img src="images/4.jpg" alt="" /></div>
+						<div><img src="images/5.jpg" alt="" /></div>
+						<div><img src="images/6.jpg" alt="" /></div>
+						<div><img src="images/7.jpg" alt="" /></div>
+						<div><img src="images/1.jpg" alt="" /></div>
+						<div><img src="images/2.jpg" alt="" /></div>
+						<div><img src="images/3.jpg" alt="" /></div>
+						<div><img src="images/4.jpg" alt="" /></div>
+						<div><img src="images/5.jpg" alt="" /></div>
+						<div><img src="images/6.jpg" alt="" /></div>
+						<div><img src="images/7.jpg" alt="" /></div>
+					</div>
 
+				</div>
+			</div>
+		</section>
+		<!-- App Screenshot Ends Here-->
+		
+		<section class="testimonial" id="testimonial">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 wow slideInLeft">
+						<h2>What They Say</h2>
+					</div>
+					<div class="col-md-12 wow slideInLeft">
+						<div id="testimonial-carousel" class="owl-carousel col-md-12">
+							<div class="single-client col-md-6">
+								<img src="images/iphone_user.png" alt="" />
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend metus dapibus tincidunt suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								<ul class="list-unstyled">
+									<li><a href=""><i class="fa fa-star"></i></a></li>
+									<li><a href=""><i class="fa fa-star"></i></a></li>
+									<li><a href=""><i class="fa fa-star"></i></a></li>
+									<li><a href=""><i class="fa fa-star"></i></a></li>
+									<li><a href=""><i class="fa fa-star"></i></a></li>
+								</ul>
+							</div>
+							<div class="single-client col-md-6">
+								<img src="images/iphone_user.png" alt="" />
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend metus dapibus tincidunt suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								<ul class="list-unstyled">
+									<li><a href=""><i class="fa fa-star"></i></a></li>
+									<li><a href=""><i class="fa fa-star"></i></a></li>
+									<li><a href=""><i class="fa fa-star"></i></a></li>
+									<li><a href=""><i class="fa fa-star"></i></a></li>
+									<li><a href=""><i class="fa fa-star"></i></a></li>
+								</ul>
+							</div>
+							<div class="single-client col-md-6">
+								<img src="images/iphone_user.png" alt="" />
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend metus dapibus tincidunt suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								<ul class="list-unstyled">
+									<li><a href=""><i class="fa fa-star"></i></a></li>
+									<li><a href=""><i class="fa fa-star"></i></a></li>
+									<li><a href=""><i class="fa fa-star"></i></a></li>
+									<li><a href=""><i class="fa fa-star"></i></a></li>
+									<li><a href=""><i class="fa fa-star"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+		<!--Testimonial Section Ends Here-->
+		
+		<section class="clients-logo" id="clients">
+			<div class="container">
+				<div class="row">
+					<div id="clients-logo" class="owl-carousel col-md-12 wow slideInRight">
+						<div><img src="images/client02.png" alt="" /></div>
+						<div><img src="images/client06.png" alt="" /></div>
+						<div><img src="images/client03.png" alt="" /></div>
+						<div><img src="images/client04.png" alt="" /></div>
+						<div><img src="images/client05.png" alt="" /></div>
+						<div><img src="images/client06.png" alt="" /></div>
+						<div><img src="images/client07.png" alt="" /></div>
+						<div><img src="images/client01.png" alt="" /></div>
+						<div><img src="images/client08.png" alt="" /></div>
+						<div><img src="images/client09.png" alt="" /></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Clients Logo Section Ends Here -->
+		
+		<section class="price-list">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 wow zoomIn">
+						<h2>Our Prices</h2>
+					</div>
+					<div class="col-md-4 wow slideInLeft">
+						<ul class="list-unstyled">
+							<li class="item-type">Basic</li>
+							<li class="item-price">
+								<span class="price-text">$200/<sub>mon</sub></span>
+								<span class="offer-text">The offer is better for you and you can select now.</span>
+							</li>
+							<li>Awesome Service</li>
+							<li>Total bug free</li>
+							<li>Responsive Design</li>
+							<li>User Friendly</li>
+							<li>24/7 Support</li>
+							<li><a href="">Purchase</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4 wow slideInUp">
+						<ul class="list-unstyled focused">
+							<li class="item-type">Regular</li>
+							<li class="item-price">
+								<span class="price-text">$500/<sub>mon</sub></span>
+								<span class="offer-text">The offer is better for you and you can select now.</span>
+							</li>
+							<li>Awesome Service</li>
+							<li>Total bug free</li>
+							<li>Responsive Design</li>
+							<li>User Friendly</li>
+							<li>24/7 Support</li>
+							<li><a href="">Purchase</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4 wow slideInRight">
+						<ul class="list-unstyled">
+							<li class="item-type">Business</li>
+							<li class="item-price">
+								<span class="price-text">$1000/<sub>mon</sub></span>
+								<span class="offer-text">The offer is better for you and you can select now.</span>
+							</li>
+							<li>Awesome Service</li>
+							<li>Total bug free</li>
+							<li>Responsive Design</li>
+							<li>User Friendly</li>
+							<li>24/7 Support</li>
+							<li><a href="">Purchase</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Price List Section Ends Here -->
+		
+		<section class="about-app">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5 col-sm-7">
+						<img class="wow slideInLeft" src="images/left-mob-front.png" alt="" />
+						<img class="wow slideInUp" src="images/left-mob-front-2.png" alt="" />
+						
+					</div>
+					<div class="col-md-7 col-sm-5 wow slideInRight">
+						<h2>About Our App</h2>
+						<h3>Best Features of Our App</h3>
+						<p>Integer eu imperdiet augue. Quisque nibh nisi, varius sodales consectetur vitae, volutpat quis odio. Aenean mattis diam molestie maximus condimentum. Fusce vel ipsum ornare nulla efficitur tristique nec et enim. Maecenas ultricies magna et orci ullamcorper egestas.
+						</p>
+						<p>Proin ut mauris ex. Suspendisse sed ante iaculis, elementum diam consectetur, aliquet mauris. Donec sit amet nunc sapien. Nam faucibus velit sed odio sollicitudin posuere. Aliquam ut nisl lectus.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- About App Section Ends Here -->
+		
+		<section class="get-app" id="subscribe">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="wow fadeIn">Get Our App</h2>
+						<p class="wow slideInUp">Proin ut mauris ex. Suspendisse sed ante iaculis, elementum diam consectetur <br /> aliquet mauris. Donec sit amet nunc sapien. Nam faucibus velit sed odio sollicitudin posuere.</p>
+						<div class="app-location wow slideInUp">
+							<ul class="list-unstyled">
+								<li><a href=""><img src="images/playstore.png" alt="" /></a></li>
+								<li><a href=""><img src="images/app-store.png" alt="" /></a></li>
+							</ul>
+						</div>
+						<form action="" class="wow slideInUp">
+							<input type="text" name="" placeholder="Your Email" />
+							<input type="submit" value="Get Now" />
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Get App Section Ends Here -->
+		
+		<div class="footer">
+			<section class="contact" id="contact">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h2 class="wow fadeIn">Get In Touch</h2>
+							<form action="">
+								<input class="wow slideInLeft" type="text" name="" placeholder="Your Name" />
+								<input class="wow slideInRight" type="text" name="" placeholder="Your Email" />
+								<textarea class="wow slideInLeft" name="" placeholder="Your Message"></textarea>
+								<input class="wow slideInRight" type="submit" value="Send Message" />
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--Contact Section Ends Here-->
+			
+			<section class="footer-bottom">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<p class="wow fadeInUp">Lets Contact</p>
+							<ul  class="wow fadeInUp" class="list-unstyled">
+								<li><a href=""><i class="fa fa-facebook"></i></a></li>
+								<li><a href=""><i class="fa fa-twitter"></i></a></li>
+								<li><a href=""><i class="fa fa-youtube"></i></a></li>
+								<li><a href=""><i class="fa fa-dribbble"></i></a></li>
+								<li><a href=""><i class="fa fa-instagram"></i></a></li>
+								<li><a href=""><i class="fa fa-rss"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+     
+			  $("#owl-example").owlCarousel({
+				items : 4,
+				navigation : false,
+				navigationText : ["prev","next"],
+				paginationNumbers: true
+			  });
+			   $("#testimonial-carousel").owlCarousel({
+				items : 1,
+				itemsCustom : true,
+				itemsDesktop : [1199,1],
+				itemsDesktopSmall : [980,1],
+				itemsTablet: [768,1],
+				itemsTabletSmall: true,
+				itemsMobile : [479,1],
+				singleItem : true,
+				itemsScaleUp : true,
+				responsive : true
+			   });
+			   $("#clients-logo").owlCarousel({
+				items : 6,
+				paginationNumbers : false,
+				navigation : false,
+			   });
+			});
+		</script>
+        <script src="js/wow.min.js"></script>
+		<script>
+		  new WOW().init();
+		</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+		<script type="text/javascript">
+			// handle links with @href started with '#' only
+			$(document).on('click', 'a[href^="#"]', function(e) {
+				// target element id
+				var id = $(this).attr('href');
+				// target element
+				var $id = $(id);
+				if ($id.length === 0) {
+					return;
+				}
+				// prevent standard hash navigation (avoid blinking in IE)
+				e.preventDefault();
+				// top position relative to the document
+				var pos = $(id).offset().top;
+				// animated top scrolling
+				$('body, html').animate({scrollTop: pos}, 1000);
+			});
+		</script>
+		<script type="text/javascript">
+			// Create a clone of the menu, right next to original.
+			$('.menu').addClass('original').clone().insertAfter('.menu').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','0').css('z-index','500').css('background','#000').removeClass('original').hide();
+			scrollIntervalID = setInterval(stickIt, 10);
+			function stickIt() {
+			  var orgElementPos = $('.original').offset();
+			  orgElementTop = orgElementPos.top;
+			  if ($(window).scrollTop() >= (orgElementTop)) {
+				// scrolled past the original position; now only show the cloned, sticky element.
 
-    <section id="testimonials">
-    <div class="overlay"></div>
-    
-    <div class="section-wrapper wp8 delay-05s">
-    <h1 class="section-title">Testimonials</h1>
-            
-                  
-                <div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <div id="testimonial-slider" class="owl-carousel">
-                <div class="testimonial">
-                    <div class="pic">
-                        <img src="img/img-1.jpg">
-                    </div>
-                    <div class="testimonial-profile">
-                        <h3 class="title">williamson</h3>
-                        <span class="post">Web Developer</span>
-                    </div>
-                    <p class="description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam varius eros consequat auctor gravida. Fusce tristique lacus at urna sollicitudin pulvinar. Suspendisse hendrerit ultrices mauris.
-                    </p>
-                </div>
-                <div class="testimonial">
-                    <div class="pic">
-                        <img src="img/img-2.jpg">
-                    </div>
-                    <div class="testimonial-profile">
-                        <h3 class="title">Kristina</h3>
-                        <span class="post">Web Designer</span>
-                    </div>
-                    <p class="description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam varius eros consequat auctor gravida. Fusce tristique lacus at urna sollicitudin pulvinar. Suspendisse hendrerit ultrices mauris.
-                    </p>
-                </div>
-                <div class="testimonial">
-                    <div class="pic">
-                        <img src="img/img-3.jpg">
-                    </div>
-                    <div class="testimonial-profile">
-                        <h3 class="title">Steve Thomas</h3>
-                        <span class="post">Web Developer</span>
-                    </div>
-                    <p class="description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam varius eros consequat auctor gravida. Fusce tristique lacus at urna sollicitudin pulvinar. Suspendisse hendrerit ultrices mauris.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-    </div>
-    </section>     
-
-	<!-- Contact Section -->
-    <section id="contact_us">
-    <div class="overlay"></div>
-    <h1 class="section-title">Contact Us</h1>
-    <div class="container text-center">
-
-        <div class="row">
-
-        <div class="col-lg-12 wp11">
-            <div class="comment-form wp4 delay-05s">
-              
-              <form class="comment-form-wrapper" action="email.php" method="get" enctype="text/plain" target="_top">
-                      <div class="row">
-                      <div class="col-md-12 no-padding">
-                          <div class="col-lg-6">
-                              <input type="text" placeholder="Your name" name="name" Required>
-                          </div>
-                          <div class="col-lg-6">
-                              <input type="email" placeholder="Your mail" name="mail" Required>
-                          </div>
-                      </div>
-                      <div class="col-md-12 no-padding">
-                          <div class="col-lg-6">
-                              <input type="text" placeholder="Your phone" name="phone" Required>
-                          </div>
-                          <div class="col-lg-6">
-                              <input type="text" placeholder="Your address" name="address" Required>
-                          </div>
-                      </div>
-                      
-                      <div class="col-md-12">
-                          <textarea id="comment-text-area" placeholder="Your message" name="message" rows="5" Required></textarea>
-                          <div class="col-md-3 col-xs-offset-3"><button type="reset" value="clear"  class="clear-comment-form" >Clear text<i class="fa fa-times"></i></button></div>
-                          <div class="col-md-3"><button name="submit" type="submit">Send<i class="fa fa-chevron-right"></i></button></div>
-                         
-                      </div>
-                  </div>
-              </form>
-          </div><!--/.comment-form-->
-        </div>
-            <div class="col-lg-12 wp11">
-                
-                <ul class="social-buttons">
-                    <li><a href="https://twitter.com/"><i class="fa fa-twitter fa-fw"></i> <span>Twitter</span></a></li>
-                    <li><a href="https://www.facebook.com/"><i class="fa fa-facebook fa-fw"></i> <span>Facebook</span></a></li>
-                    <li><a href="https://plus.google.com/"><i class="fa fa-google-plus fa-fw"></i> <span>Google+</span></a></li>
-                    <li><a href="https://www.flickr.com/"><i class="fa fa-flickr fa-fw"></i> <span>Flickr</span></a></li>
-                    <li><a href="https://youtube.com/"><i class="fa fa-youtube fa-fw"></i> <span>You Tube</span></a></li>
-                </ul>
-                
-            </div><!-- /.col-lg-12 --> 
-            
-        </div><!-- /.row --> 
-
-        
-
-        <div class="row">
-        
-        <div class="copyright">
-        © Created for <b>medicento</b></a>
-       	<br>
-        Visitor Count
-        <div align=center><a href='http://www.counter12.com'><img src='http://www.counter12.com/img-B3bwDb1YYzd56d5a-13.gif' border='0' alt='free web counter'></a><script type='text/javascript' src='http://www.counter12.com/ad.js?id=B3bwDb1YYzd56d5a'></script></div>
-        </div>
-        <div class="footer-line"></div>
-        </div><!-- /.row --> 
-    </div><!-- /.container -->     	  
-    </section><!-- /#contact --> 
-
-    <div class="modal fade" id="start" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h1 class="modal-title text-center" style="color: black;">Thank You!</h1>
-                </div>
-                <div class="modal-body">
-                    <p>
-                        <div class="row">
-                            <div class="col-lg-12 text-center">
-                                <p style="color: black;">
-                                    <strong>We have received your message and will get back to you shortly.</strong>
-                                </p>
-                            </div>
-                        </div>                     
-                    </p>
-                </div>
-            </div>          
-        </div>
-    </div>
-
-    
-    <!-- Core JavaScript Files -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.easing.min.js"></script>
-
-    <!-- JavaScript -->
-    <script src="js/lib/jquery.appear.js"></script>
-    <script src="js/lib/owl-carousel/owl.carousel.min.js"></script>
-    <script src="js/lib/magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="js/lib/video/jquery.mb.YTPlayer.js"></script> 		
-    <script src="js/lib/flipclock/flipclock.js"></script>
-    <script src="js/lib/jquery.animateNumber.js"></script>
-    <script src="js/lib/waypoints.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/main.js"></script>
-    <script>
-        var myIndex = 0;
-        carousel();
-
-        function carousel() {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            for (i = 0; i < x.length; i++) {
-               x[i].style.display = "none";  
-            }
-            myIndex++;
-            if (myIndex > x.length) {myIndex = 1}    
-            x[myIndex-1].style.display = "block";  
-            setTimeout(carousel, 4000);    
-        }
-    </script>
-
-</body>
-
+				// Cloned element should always have same left position and width as original element.     
+				orgElement = $('.original');
+				coordsOrgElement = orgElement.offset();
+				leftOrgElement = coordsOrgElement.left;  
+				widthOrgElement = orgElement.css('width');
+				$('.cloned').css('left',leftOrgElement+'px').css('top',0).css('width',widthOrgElement).show();
+				$('.original').css('visibility','hidden');
+			  } else {
+				// not scrolled past the menu; only show the original menu.
+				$('.cloned').hide();
+				$('.original').css('visibility','visible');
+			  }
+			}
+		</script>
+		<script src="js/jquery.slicknav.min.js"></script>
+		<script>
+			$(function(){
+				$('#main-menu').slicknav();
+			});
+		</script>
+    </body>
 </html>
