@@ -750,7 +750,7 @@ body p{
   background: 
     /* top, transparent red, faked with gradient */ 
     linear-gradient(
-      rgba(40, 40, 40, 0.7), 
+      rgba(40, 40, 40, 0.25), 
       rgba(40, 40, 40, 0.7)
     ),
     /* bottom, image */
