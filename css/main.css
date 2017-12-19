@@ -790,7 +790,7 @@ body p{
   width: 150px;
 }
 .contact .col-md-12 form input[type="text"] {
-	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0.64) none repeat scroll 0 0;
 	border: 1px solid #b4b4b4;
 	display: block;
 	height: 50px;
@@ -808,6 +808,7 @@ body p{
   background:none;
   border: 1px solid #b4b4b4;
   color:#fff;
+  background: rgba(0, 0, 0, 0.64) none repeat scroll 0 0;
 }
 .contact .col-md-12 form input[type="submit"] {
 	background: #ff4546 none repeat scroll 0 0;
