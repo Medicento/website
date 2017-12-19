@@ -449,7 +449,7 @@ body p{
       rgba(40, 40, 40, 0.45)
     ),
     /* bottom, image */
-    url(../images/testimonial-bg.jpg);
+    url(../images/images.jpeg);
 	background-size:cover;
 }
 .testimonial .col-md-12 > h2 {
