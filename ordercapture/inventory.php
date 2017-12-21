@@ -78,6 +78,15 @@
 
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script>
+  $(document).ready(function() {
+    $( "#codingSkills" ).autocomplete({
+      source: 'search.php'
+    });
+  });
+  </script>
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
@@ -153,7 +162,7 @@
                       <div class="box-body">
                         <div class="form-group col-lg-4">
                           <label for="product">Product</label>
-                            <input type="text" class="form-control" id="product" name="product" required placeholder="Enter the name of the product">
+                            <input type="text" class="form-control" id="codingSkills" name="product" required placeholder="Enter the name of the product">
                         </div>
                         <div class="form-group col-lg-4">
                           <label for="cost">Quantity</label>
