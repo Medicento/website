@@ -120,20 +120,20 @@
                               <label for="pharmacy">Select Pharmacy</label>
                                 <select name="pharmacy" onchange="pharmaData();" class="form-control" id="pharmaSelect" required>
                                     <option selected disabled>Select your option</option>
-                                    <option value="4505">4505</option>
-                                    <option value="4506">4506</option>
-                                    <option value="4507">4507</option>
-                                    <option value="4509">4509</option>
-                                    <option value="4511">4511</option>
-                                    <option value="4512">4512</option>
-                                    <option value="4513">4513</option>
-                                    <option value="4514">4514</option>
-                                    <option value="4515">4515</option>
-                                    <option value="4516">4516</option>
-                                    <option value="4517">4517</option>
-                                    <option value="4518">4518</option>
-                                    <option value="4519">4519</option>
-                                    <option value="4520">4520</option>
+                                    <option value="4505">Balaji Medicals and General store </option>
+                                    <option value="4506">Mehtab Pharma </option>
+                                    <option value="4507">Swati Medicals and general Stores </option>
+                                    <option value="4509">Garuda Pharma </option>
+                                    <option value="4511">Prema Medicals</option>
+                                    <option value="4512">New Life Medicals </option>
+                                    <option value="4513">Shifaa Medical & General stores </option>
+                                    <option value="4514">NRS Green Plus Pharma </option>
+                                    <option value="4515">Alpha Medicals</option>
+                                    <option value="4516">Care Chemist</option>
+                                    <option value="4517">Green Plus</option>
+                                    <option value="4518">Standard Medicals and General Store</option>
+                                    <option value="4519">Medicure Pharma</option>
+                                    <option value="4520">Sri Sai Medicals and Genarel Store </option>
                                 </select>
                             </div>
                             <input type="text" name="pharma" id="pharma" style="display: none;">
