@@ -49,6 +49,9 @@
 			}
 
         </style>
+        <script type="text/javascript">
+        	var video = document.getElementById('video'); video.addEventListener('click',function(){ video.play(); },false);
+        </script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -93,7 +96,7 @@
 				</div>
 			</div>
 			<div class="filter"></div>
-        	<video autoplay playsinline loop class="fillWidth" style="min-width:100%; min-height:100%;"  muted>
+        	<video id="video" autobuffer autoplay playsinline loop class="fillWidth" style="min-width:100%; min-height:100%;"  muted>
 				 <source src="images/Medicento.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.</video>
 		</section>
 		<!-- Intro Section Ends -->
