@@ -64,6 +64,6 @@
          
         $userId = $user['id']; // Retrieve user Id
         $userName = $user['name']; // Retrieve user name
-        echo $userName;
+        echo $userName."<br>".$userId;
     }
 ?>
