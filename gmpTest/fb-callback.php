@@ -49,6 +49,21 @@
     // Get user’s Facebook ID
     $userId = $tokenMetadata->getField('user_id');
     if ($userId) {
-        echo $userID;
+        try {
+            // Returns a `Facebook\FacebookResponse` object
+            $response = $fb->get('/me?fields=id,name', $accessToken);
+        } catch(Facebook\Exceptions\FacebookResponseException $e) {
+            echo 'Graph returned an error: ' . $e->getMessage();
+            exit;
+        } catch(Facebook\Exceptions\FacebookSDKException $e) {
+            echo 'Facebook SDK returned an error: ' . $e->getMessage();
+            exit;
+        }
+         
+        $user = $response->getGraphUser();
+         
+        $userId = $user['id']; // Retrieve user Id
+        $userName = $user['name']; // Retrieve user name
+        echo $userName;
     }
 ?>
