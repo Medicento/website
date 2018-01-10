@@ -1,7 +1,4 @@
 <?php
-    if (!session_id()) {
-        session_start();
-    }
     require_once __DIR__ . '/vendor/autoload.php'; // change path as needed
 
     $fb = new \Facebook\Facebook([
@@ -11,7 +8,9 @@
         //'default_access_token' => '{access-token}', // optional
     ]);
     $helper = $fb->getRedirectLoginHelper();
-    $_SESSION['FBRLH_state']=$_GET['state'];
+    if (isset($_GET['state'])) {
+        $helper->getPersistentDataHandler()->set('state', $_GET['state']);
+    }
  
     $permissions = []; // Optional information that your app can access, such as 'email'
     $loginUrl = $helper->getLoginUrl('http://medicento.com/gmpTest/fb-callback.php', $permissions);

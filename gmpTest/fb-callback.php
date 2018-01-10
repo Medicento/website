@@ -1,7 +1,4 @@
 <?php
-    if (!session_id()) {
-        session_start();
-    }
     require_once __DIR__ . '/vendor/autoload.php'; // change path as needed
 
     $fb = new Facebook\Facebook([
@@ -12,7 +9,9 @@
    
     $helper = $fb->getRedirectLoginHelper();
 
-  //  $_SESSION['FBRLH_state']=$_GET['state'];
+    if (isset($_GET['state'])) {
+        $helper->getPersistentDataHandler()->set('state', $_GET['state']);
+    }
    
     try {
         $accessToken = $helper->getAccessToken();
