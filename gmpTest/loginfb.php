@@ -11,7 +11,7 @@
         //'default_access_token' => '{access-token}', // optional
     ]);
     $helper = $fb->getRedirectLoginHelper();
-   // $_SESSION['FBRLH_state']=$_GET['state'];
+    $_SESSION['FBRLH_state']=$_GET['state'];
  
     $permissions = []; // Optional information that your app can access, such as 'email'
     $loginUrl = $helper->getLoginUrl('http://medicento.com/gmpTest/fb-callback.php', $permissions);
