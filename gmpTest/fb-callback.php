@@ -1,3 +1,6 @@
+<?php require_once("includes/db_connection.php");?>
+<?php require_once("includes/functions.php");?>
+
 <?php
     require_once __DIR__ . '/vendor/autoload.php'; // change path as needed
 
@@ -64,6 +67,16 @@
          
         $userId = $user['id']; // Retrieve user Id
         $userName = $user['name']; // Retrieve user name
-        echo $userName."<br>".$userId;
+
+        $query = "SELECT username FROM users WHERE username = '{$userId}'";
+        $result = mysqli_query($conn, $query);
+        confirm_query($result);
+
+        if (!$result) {
+            $insertQuery = "INSERT INTO users (username, name) VALUES('{$userId}', '{$userName}')";
+            $insertResult = mysqli_query($insertQuery);
+            confirm_query($insertResult);
+        }
+        echo "Welcome ".$userName;
     }
 ?>
