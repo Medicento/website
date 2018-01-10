@@ -48,4 +48,7 @@
    
     // Get user’s Facebook ID
     $userId = $tokenMetadata->getField('user_id');
+    if ($userId) {
+        echo "got facebook";
+    }
 ?>
