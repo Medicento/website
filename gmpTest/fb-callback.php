@@ -75,7 +75,7 @@
 
         if ($userList['username']=="") {
             $insertQuery = "INSERT INTO users (username, name) VALUES('{$userId}', '{$userName}')";
-            $insertResult = mysqli_query($insertQuery);
+            $insertResult = mysqli_query($conn, $insertQuery);
             confirm_query($insertResult);
         }
         echo "Welcome ".$userName;
