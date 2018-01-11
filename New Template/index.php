@@ -1,3 +1,14 @@
+<?php
+$url = 'https://newsapi.org/v2/everything?sources=medical-news-today&apiKey=32cd906e772f4f9cb72539fbc2a22a79';
+ 
+$contents = file_get_contents($url);
+ 
+if($contents !== false){
+
+
+$arr = json_decode($contents, true);
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -72,7 +83,7 @@
               <span>Services</span>
             </a>
             <a data-scroll="" href="#employement">
-              <span>Employement</span>
+              <span>Health & Things</span>
             </a>
             <a data-scroll="" href="#skill">
               <span>Skills</span>
@@ -144,16 +155,14 @@
 
         <!--ABOUT-->
         <section id="about">
-          <div class="col-md-6 col-xs-12 no-pad">
-            <div class="bg-about"></div>
-          </div>
-          <div class="col-md-6 col-sm-12 col-xs-12 white-col">
+          
+          <div class="col-md-12 col-sm-12 col-xs-12 white-col">
             <div class="row">
               <!--OWL CAROUSEL2-->
               <div class="owl-carousel2">
                 <div class="col-md-12">
                   <h3 class="title-small text-center">
-                  <span>Work</span>
+                  <span>About Us</span>
                 </h3>
                   <div class="wrap-about">
                     <div class="w-content">
@@ -395,7 +404,7 @@
             <div class="row">
               <div class="col-md-3">
                 <h3 class="title-small">
-                  <span>Employement</span>
+                  <span>Health & Things</span>
                 </h3>
                 <p class="content-detail">
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
@@ -409,18 +418,13 @@
                         <div class="wrap-card">
                           <div class="card">
                             <h2 class="year">
-                              2007 - 2009
+                              <?php echo $arr['articles'][0]['title'];  ?>
                             </h2>
-                            <p class="job">
-                              web designer
-                            </p>
-                            <p class="company">
-                              Corp Project
-                            </p>
+                            
                             <hr>
                             <div class="text-detail">
                               <p>
-                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+                                <?php echo $arr['articles'][0]['description'];  ?>
                               </p>
                             </div>
                           </div>
@@ -433,18 +437,13 @@
                         <div class="wrap-card">
                           <div class="card">
                             <h2 class="year">
-                              2009 - 2010
+                              <?php echo $arr['articles'][1]['title'];  ?>
                             </h2>
-                            <p class="job">
-                              web designer
-                            </p>
-                            <p class="company">
-                              Google inc
-                            </p>
+                            
                             <hr>
                             <div class="text-detail">
                               <p>
-                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+                                <?php echo $arr['articles'][1]['description'];  ?>
                               </p>
                             </div>
                           </div>
@@ -458,18 +457,13 @@
                         <div class="wrap-card">
                           <div class="card">
                             <h2 class="year">
-                              2010 - 2014
+                              <?php echo $arr['articles'][2]['title'];  ?>
                             </h2>
-                            <p class="job">
-                              crative director 
-                            </p>
-                            <p class="company">
-                              41 studio
-                            </p>
+                            
                             <hr>
                             <div class="text-detail">
                               <p>
-                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+                                <?php echo $arr['articles'][2]['description'];  ?>
                               </p>
                             </div>
                           </div>
@@ -482,18 +476,13 @@
                         <div class="wrap-card">
                           <div class="card">
                             <h2 class="year">
-                              2014 - NOW
+                               <?php echo $arr['articles'][3]['title'];  ?>
                             </h2>
-                            <p class="job">
-                              fullstack designer
-                            </p>
-                            <p class="company">
-                              Freelance
-                            </p>
+                            
                             <hr>
                             <div class="text-detail">
                               <p>
-                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+                                 <?php echo $arr['articles'][3]['description'];  ?>
                               </p>
                             </div>
                           </div>

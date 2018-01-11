@@ -908,7 +908,7 @@ ul.portfolio-image li .desc{
 }
 /*---------- f. quote -----------*/
 #about{
-  min-height: 650px;
+  min-height: 560px;
   display: -webkit-box;
   width: 100%;
 }
@@ -932,7 +932,7 @@ ul.portfolio-image li .desc{
   width: 100%;
   position: relative;
   display: block;
-  min-height: 480px;
+  min-height: 380px;
 }
 .wrap-about .w-content{
   position: absolute;
