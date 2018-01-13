@@ -760,12 +760,12 @@ $arr = json_decode($contents, true);
             <div class="row">
               <div class="col-md-12">
                 <h3 class="title-small-center text-center">
-                  <span>Blog</span>
+                  <span>Team</span>
                 </h3>
                 <div class="row">
                   <div class="col-md-6 col-md-offset-3">
                     <p class="content-details text-center">
-                      Lorem ipsum dolor sit amet consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt. 
+                     Teamwork is the ability to work together toward a common vision. The ability to direct individual accomplishments toward organizational objectives. It is the fuel that allows common people to attain uncommon results. 
                     </p>
                   </div>
                 </div>
@@ -773,13 +773,13 @@ $arr = json_decode($contents, true);
                 <div class="grid">
                   <div class="grid-item">
                     <div class="wrap-article">
-                      <img alt="blog-1" class="img-circle text-center" src="images/blog-1.png">
+                      <img alt="blog-1" class="img-circle text-center" src="images/arpan.jpg">
                       <p class="subtitle fancy">
-                        <span>09/01/2015</span>
+                        <span>Arpan Debasis</span>
                       </p>
-                      <a href="#">
+                       <a href="https://www.linkedin.com/in/arpan-debasis-794a1050/" target="_blank">
                         <h3 class="title">
-                          Popular Design in 2015 
+                         CEO & Founder
                         </h3>
                       </a>
                       <p class="content-blog">
@@ -790,13 +790,13 @@ $arr = json_decode($contents, true);
 
                   <div class="grid-item">
                     <div class="wrap-article">
-                     <img alt="blog-4" class="img-circle text-center" src="images/blog-4.jpg">
+                     <img alt="blog-4" class="img-circle text-center" src="images/abhishek.jpg">
                      <p class="subtitle fancy">
-                        <span>08/20/2015</span>
+                        <span>Abhishek Sharma</span>
                       </p>
-                      <a href="#">
+                       <a href="https://www.linkedin.com/in/abhishek-sharma-443206126/" target="_blank">
                         <h3 class="title">
-                          Just Start
+                          Product Manager
                         </h3>
                       </a>
                       <p class="content-blog">
@@ -807,13 +807,13 @@ $arr = json_decode($contents, true);
 
                   <div class="grid-item">
                     <div class="wrap-article">
-                      <img alt="blog6" class="img-circle text-center" src="images/blog-6.jpg">
+                      <img alt="blog6" class="img-circle text-center" src="images/aditya.jpg">
                       <p class="subtitle fancy">
-                        <span>08/11/2015</span>
+                        <span>Aditya Garg</span>
                       </p>
-                      <a href="#">
+                       <a href="https://www.linkedin.com/in/aditya-garg-3085b9a4/" target="_blank">
                         <h3 class="title">
-                          The Huffington Post
+                          Operation Head
                         </h3>
                       </a>
                       <p class="content-blog">
@@ -821,16 +821,16 @@ $arr = json_decode($contents, true);
                       </p>
                     </div>
                   </div>
-                  
+
                   <div class="grid-item">
                     <div class="wrap-article">
-                      <img alt="blog2" class="img-circle text-center" src="images/blog-2.jpg">
+                      <img alt="blog5" class="img-circle text-center" src="images/darshan.jpg">
                       <p class="subtitle fancy">
-                        <span>08/03/2015</span>
+                        <span>Darshan Mishra</span>
                       </p>
-                      <a href="#">
+                      <a href="https://www.linkedin.com/in/darshan-mishra-90aa1890/" target="_blank">
                         <h3 class="title">
-                          Manuk!
+                          Lead Developer
                         </h3>
                       </a>
                       <p class="content-blog">
@@ -841,37 +841,39 @@ $arr = json_decode($contents, true);
 
                   <div class="grid-item">
                     <div class="wrap-article">
-                      <img alt="blog5" class="img-circle text-center" src="images/blog-5.jpg">
+                      <img alt="blog-3" class="img-circle text-center" src="images/employee.jpg">
                       <p class="subtitle fancy">
-                        <span>07/26/2015</span>
+                        <span>You</span>
                       </p>
-                      <a href="#">
+                       <a href="#" target="_blank">
                         <h3 class="title">
-                          Do Web Designer Really Need To Know UI/UX Design and Backend Code too?
-                        </h3>
-                      </a>
-                      <p class="content-blog">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="grid-item">
-                    <div class="wrap-article">
-                      <img alt="blog-3" class="img-circle text-center" src="images/blog-3.jpg">
-                      <p class="subtitle fancy">
-                        <span>08/03/2015</span>
-                      </p>
-                      <a href="#">
-                        <h3 class="title">
-                          Somewhere Place
+                          Joining Soon
                         </h3>
                       </a>
                       <p class="content-blog">
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.
                       </p>
                     </div>
-                  </div>                  
+                  </div>  
+                  
+                  <div class="grid-item">
+                    <div class="wrap-article">
+                      <img alt="blog2" class="img-circle text-center" src="images/prashant.jpg">
+                      <p class="subtitle fancy">
+                        <span>Prashant Bhardwaj</span>
+                      </p>
+                      <a href="https://www.linkedin.com/in/prashantkbhardwaj/" target="_blank">
+                        <h3 class="title">
+                          CTO
+                        </h3>
+                      </a>
+                      <p class="content-blog">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                      </p>
+                    </div>
+                  </div>
+
+                                  
 
                 </div>
                 <!--/.GRID BLOG END-->
