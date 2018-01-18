@@ -339,7 +339,7 @@ $arr = json_decode($contents, true);
             <div class="row">
               <div class="col-md-3">
                 <h3 class="title-small">
-                  <span>Skills</span>
+                  <span>Achievements</span>
                 </h3>
                 <p class="content-detail">
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
@@ -350,7 +350,7 @@ $arr = json_decode($contents, true);
                 <div class="skillst">
                   <div class="skillbar" data-percent="78%">
                     <div class="title head-sm">
-                      HTML 5
+                      Orders
                     </div>
                     <div class="count-bar">
                       <div class="count"></div>
@@ -358,7 +358,7 @@ $arr = json_decode($contents, true);
                   </div>
                   <div class="skillbar" data-percent="91%">
                     <div class="title head-sm">
-                      CSS 4
+                      Retailers
                     </div>
                     <div class="count-bar">
                       <div class="count"></div>
@@ -366,7 +366,7 @@ $arr = json_decode($contents, true);
                   </div>
                   <div class="skillbar" data-percent="58%">
                     <div class="title head-sm">
-                      jQuery
+                      Distributors
                     </div>
                     <div class="count-bar">
                       <div class="count"></div>
@@ -374,7 +374,7 @@ $arr = json_decode($contents, true);
                   </div>
                   <div class="skillbar" data-percent="63%">
                     <div class="title head-sm">
-                      PHP
+                      Transactions
                     </div>
                     <div class="count-bar">
                       <div class="count"></div>
@@ -382,7 +382,7 @@ $arr = json_decode($contents, true);
                   </div>
                   <div class="skillbar" data-percent="95%">
                     <div class="title head-sm">
-                      Photoshop
+                      Product Coverage
                     </div>
                     <div class="count-bar">
                       <div class="count"></div>
@@ -506,11 +506,12 @@ $arr = json_decode($contents, true);
             <div class="row">
               <div class="col-md-3">
                 <h3 class="title-small">
-                  <span>Education</span>
+                  <span>Blogs</span>
                 </h3>
                 <p class="content-detail">
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
                 </p>
+                <p><button type="button" target="_blank" class="btn">Post Your Own</button></p>
               </div>
               <div class="col-md-9 content-right">
                 <div class="row">
@@ -520,18 +521,16 @@ $arr = json_decode($contents, true);
                         <div class="wrap-card">
                           <div class="card">
                             <h2 class="year">
-                              2002 - 2005
+                              Atlantic Health
                             </h2>
                             <p class="job">
-                              Information System
+                              Atlantic magazine blog
                             </p>
-                            <p class="company">
-                              Telkom University
-                            </p>
+                            
                             <hr>
                             <div class="text-detail">
                               <p>
-                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+                                This Atlantic magazine blog features counterintuitive research findings, emerging public health problems, questionable practices  and articles that explore medicine from historical, anthropological and sociological perspectives. It's easy to linger here, reading stories about accidental medical breakthroughs  and evolving medical theories. Readers can also find information about novel medical experiments and the struggle to eradicate Ebola.
                               </p>
                             </div>
                           </div>
@@ -544,18 +543,15 @@ $arr = json_decode($contents, true);
                         <div class="wrap-card">
                           <div class="card">
                             <h2 class="year">
-                              2005 - 2007
+                             Becker's Hospital Review
                             </h2>
                             <p class="job">
-                              DKV
-                            </p>
-                            <p class="company">
-                              UNIKOM
+                             Becker's Hospital
                             </p>
                             <hr>
                             <div class="text-detail">
                               <p>
-                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+                                Aimed at industry leaders, Becker's Hospital Review External link  keeps pace with healthcare's ever-changing legal and business landscape. The Review diligently tracks infection control efforts   and makes note of emerging epidemics. The latest thinking on improving patient experience  and other measures of quality care can be found here as well.
                               </p>
                             </div>
                           </div>
@@ -569,18 +565,15 @@ $arr = json_decode($contents, true);
                         <div class="wrap-card">
                           <div class="card">
                             <h2 class="year">
-                              2007 - 2009
+                              Healthy Living
                             </h2>
                             <p class="job">
-                              Magister DKV 
-                            </p>
-                            <p class="company">
-                              ITB
+                              Huffington 
                             </p>
                             <hr>
                             <div class="text-detail">
                               <p>
-                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+                                This blog takes a pop culture approach to healthcare with a multitude of stories about healing foods and spices, new fitness regimes and healthy lifestyles. The blog culls healthcare information from television broadcasts, the Internet, medical experts, alternative health practitioners, wire services and an array of other sources. You'll find posts about the supplement industry, stress-busting foods and experimental diets .
                               </p>
                             </div>
                           </div>
@@ -593,18 +586,15 @@ $arr = json_decode($contents, true);
                         <div class="wrap-card">
                           <div class="card">
                             <h2 class="year">
-                              2009 - 2010
+                              Vital Signs
                             </h2>
                             <p class="job">
-                              Typhography Magister
-                            </p>
-                            <p class="company">
-                              Florida University
+                              Modern Healthcare
                             </p>
                             <hr>
                             <div class="text-detail">
                               <p>
-                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+                                With straightforward prose and catchy headlines, this blog explores the political, financial and technological dimensions of the healthcare industry. It encompasses a range of thorny healthcare issues, from operating room inefficiencies and healthcare industry fraud to primers on what Medicare pays for equipment and fixes for meaningful use rules. The comings and goings of healthcare CEOs and other leaders are also reported.
                               </p>
                             </div>
                           </div>
