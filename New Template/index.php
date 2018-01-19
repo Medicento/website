@@ -13,7 +13,7 @@ $arr = json_decode($contents, true);
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bodo - Simple One Page Personal</title>
+    <title>medicento.</title>
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="Bodo - Simple One Page Personal" name="description">
@@ -141,13 +141,14 @@ $arr = json_decode($contents, true);
             <div class="row">
               <div class="wrap-hero-content">
                   <div class="hero-content">
-                    <h1 style="font-size: 60px;"><b>medicento.</b></h1>
+                    <img alt="logo" style="margin-top: 1-37px; max-width: 33%;"  src="images/logoMedicento.png">
+
                     
-                    <h4>Your Medicines has a new address</h4>
                     <br>
                     <br>
-                   <img alt="logo" style="margin-top: 1-37px; max-width: 33%;"  src="images/logoMedicento.png">
-                    <!--<button  class="button button2" onclick="openSearch()">Know Your Medicine</button>-->
+                     <h1 style="font-size: 60px;"><b>medicento.</b></h1>
+                    
+                    <h4>Your Medicines has a new address</h4>                  <!--<button  class="button button2" onclick="openSearch()">Know Your Medicine</button>-->
                   </div>
               </div>
               <div class="mouse-icon margin-20">
