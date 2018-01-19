@@ -959,7 +959,7 @@ $arr = json_decode($contents, true);
             <div class="container">
               <div class="row">
                <h3 class="text-center"><b>Email -</b> contactus@medicento.com, <b>Call -</b>+91-9743959497 / 080-41131583</h3>
-               <h1 class="text-center"><b>medicento.</b></h1>
+               <h1 class="text-center"><b>Mediclick Healthcare Services Pvt. Ltd.</b></h1>
               </div>
             </div>
           </div>
