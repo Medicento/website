@@ -90,9 +90,9 @@ $arr = json_decode($contents, true);
             <a data-scroll="" href="#about">
               <span>About</span>
             </a>
-            <a data-scroll="" href="#work">
+         <!--   <a data-scroll="" href="#work">
               <span>Work</span>
-            </a>
+            </a>  -->
              <a data-scroll="" href="#services">
               <span>Services</span>
             </a>
@@ -100,16 +100,16 @@ $arr = json_decode($contents, true);
               <span>Health & Things</span>
             </a>
             <a data-scroll="" href="#skill">
-              <span>Skills</span>
+              <span>Achievements</span>
             </a>
             <a data-scroll="" href="#education">
-              <span>Education</span>
+              <span>Blogs</span>
             </a>
             <a data-scroll="" href="#testimonial">
               <span>Testimonial</span>
             </a>
             <a data-scroll="" href="#blog">
-              <span>Blog</span>
+              <span>Team</span>
             </a>
             <a data-scroll="" href="#contact">
               <span>Contact</span>
@@ -146,7 +146,8 @@ $arr = json_decode($contents, true);
                     <h4>Your Medicines has a new address</h4>
                     <br>
                     <br>
-                    <button  class="button button2" onclick="openSearch()">Know Your Medicine</button>
+                    <button  class="button button2" ">Know Your Medicine</button>
+                    <!--<button  class="button button2" onclick="openSearch()">Know Your Medicine</button>-->
                   </div>
               </div>
               <div class="mouse-icon margin-20">
@@ -356,15 +357,17 @@ $arr = json_decode($contents, true);
                   <span>Achievements</span>
                 </h3>
                 <p class="content-detail">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                  Believe in yourself. You are braver than you think, more talented than you know, and capable of more than you imagine.
+                  There is only one thing that makes a dream impossible to achieve: the fear of failure.
                 </p>
+
               </div>
               <div class="col-md-9 content-right">
                 <!--SKILLST-->
                 <div class="skillst">
                   <div class="skillbar" data-percent="78%">
                     <div class="title head-sm">
-                      Orders
+                      Orders Processed
                     </div>
                     <div class="count-bar">
                       <div class="count"></div>
@@ -372,7 +375,7 @@ $arr = json_decode($contents, true);
                   </div>
                   <div class="skillbar" data-percent="91%">
                     <div class="title head-sm">
-                      Retailers
+                      Retailers Onboarded
                     </div>
                     <div class="count-bar">
                       <div class="count"></div>
@@ -380,7 +383,7 @@ $arr = json_decode($contents, true);
                   </div>
                   <div class="skillbar" data-percent="58%">
                     <div class="title head-sm">
-                      Distributors
+                      Distributors Onboarded
                     </div>
                     <div class="count-bar">
                       <div class="count"></div>
@@ -388,7 +391,7 @@ $arr = json_decode($contents, true);
                   </div>
                   <div class="skillbar" data-percent="63%">
                     <div class="title head-sm">
-                      Transactions
+                      Transactions Till Dates
                     </div>
                     <div class="count-bar">
                       <div class="count"></div>
@@ -421,7 +424,7 @@ $arr = json_decode($contents, true);
                   <span>Health & Things</span>
                 </h3>
                 <p class="content-detail">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                  Physical fitness is not only one of the most important keys to a healthy body, it is the basis of dynamic and creative intellectual activity.
                 </p>
               </div>
               <div class="col-md-9 content-right">
@@ -523,10 +526,10 @@ $arr = json_decode($contents, true);
                   <span>Blogs</span>
                 </h3>
                 <p class="content-detail">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                  Where the Internet is about availability of information, blogging is about making information creation available to anyone. Don’t focus on having a great blog. Focus on producing a blog that’s great for your readers.
                 </p>
                 <p>
-                <button class="btn" href="#signup" data-toggle="modal" data-target=".bs-modal-sm">Post Your Own</button></p>
+             <!--   <button class="btn" href="#signup" data-toggle="modal" data-target=".bs-modal-sm">Post Your Own</button></p>  -->
               </div>
               <div class="col-md-9 content-right">
                 <div class="row">
@@ -626,7 +629,7 @@ $arr = json_decode($contents, true);
         <!--/.EDUCATION END-->
 
 
-         <!--WORK-->
+         <!--WORK-
         <section class="grey-bg mar-tm-10" id="work">
           <div class="container">
             <div class="row">
@@ -639,7 +642,7 @@ $arr = json_decode($contents, true);
                 </p>
               </div>
               <div class="col-md-9 content-right">
-                <!--PORTFOLIO IMAGE-->
+                <!--PORTFOLIO IMAGE--
                 <ul class="portfolio-image">
                   <li class="col-md-6">
                     <a href="images/bw-1.png"><img alt="image" src="images/bw-1.png">
@@ -707,7 +710,7 @@ $arr = json_decode($contents, true);
                     </a>
                   </li>
                 </ul>
-                <!--/.PORTFOLIO IMAGE END-->
+                <!--/.PORTFOLIO IMAGE END-
               </div>
             </div>
           </div>
@@ -724,30 +727,30 @@ $arr = json_decode($contents, true);
                   <div class="list-testimonial">
                     <div class="content-testimonial">
                       <h3 class="testi">
-                        “ Reza did a phenominal job setting up my a website for my product He performed the task very quickly and efficiently. We know we have the superior topical pain relief cream on the market and he has helped us communicate that message via the website he built from scratch. Thanks! ”
+                        “I have been using <b>medicento.</b> Pharmacy for my diabetic supplies for over a year now. The entire staff is so helpful, I am very happy to say that Physician Choice Pharmacy my pharmacy”
                       </h3>
                       <p class="people">
-                        Darin Cohen - Active10
+                       Deepak 
                       </p>
                     </div>
                   </div>
                   <div class="list-testimonial">
                     <div class="content-testimonial">
                       <h3 class="testi">
-                        “ Another successful project working with Reza. He has great design skills, is very responsive and professional. Looking forward to the next opportunity to work together. ”
+                        “ Always a pleasure dealing with <b>medicento.</b> Your customer service is unbeatable. You should be teaching ALL other companies how to handle their customers so well. ”
                       </h3>
                       <p class="people">
-                        Marko Milicevic
+                        Mark
                       </p>
                     </div>
                   </div>
                   <div class="list-testimonial">
                     <div class="content-testimonial">
                       <h3 class="testi">
-                        “ Great designer! I like his sense of design, especially the color scheme. Quick turnaround. Look forward to work with him again. Thanks!! ”
+                        “I really appreciate the care and consideration <b>medicento.</b> give to me and the medications. The quality of storage and handling of the meds is far superior to that of my local pharmacy. ”
                       </h3>
                       <p class="people">
-                        JK Thang
+                        Shridhar
                       </p>
                     </div>
                   </div>
@@ -788,7 +791,7 @@ $arr = json_decode($contents, true);
                         </h3>
                       </a>
                       <p class="content-blog">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.
+                        The dream is to fill gaps and mend the loop-holes of  the pharmaceutical  industry and provide the customers, a reliable and convenient platform for medicines.
                       </p>
                     </div>
                   </div>
@@ -805,7 +808,7 @@ $arr = json_decode($contents, true);
                         </h3>
                       </a>
                       <p class="content-blog">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                        Working in a startup is always excites me , as because I get open space to work and get opportunity to change in society. 
                       </p>
                     </div>
                   </div>
@@ -822,12 +825,14 @@ $arr = json_decode($contents, true);
                         </h3>
                       </a>
                       <p class="content-blog">
-                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                       Prior to his working at companies like IDEA and FLIPKART, he brings in his rich
+                      experience from these companies and is the best fit to Spearhead the operations. He has
+                        streamlined the bridge between the retailer and the supplier 
                       </p>
                     </div>
                   </div>
 
-                  <div class="grid-item">
+                   <div class="grid-item">
                     <div class="wrap-article">
                       <img alt="blog5" class="img-circle text-center" src="images/darshan.jpg">
                       <p class="subtitle fancy">
@@ -839,27 +844,12 @@ $arr = json_decode($contents, true);
                         </h3>
                       </a>
                       <p class="content-blog">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                        Lead the technology with creative and laborious team along with friendly environment & just put every effort and knowledge.
                       </p>
                     </div>
                   </div>
 
-                  <div class="grid-item">
-                    <div class="wrap-article">
-                      <img alt="blog-3" class="img-circle text-center" src="images/employee.jpg">
-                      <p class="subtitle fancy">
-                        <span>You</span>
-                      </p>
-                       <a href="#" target="_blank">
-                        <h3 class="title">
-                          Joining Soon
-                        </h3>
-                      </a>
-                      <p class="content-blog">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.
-                      </p>
-                    </div>
-                  </div>  
+                  
                   
                   <div class="grid-item">
                     <div class="wrap-article">
@@ -873,10 +863,32 @@ $arr = json_decode($contents, true);
                         </h3>
                       </a>
                       <p class="content-blog">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                        Building up something with all the resources in hand is an easy task rather heavy duty from scratch with minimum available resources.
                       </p>
                     </div>
                   </div>
+
+
+                  <div class="grid-item">
+                    <div class="wrap-article">
+                      <img alt="blog-3" class="img-circle text-center" src="images/employee.jpg">
+                      <p class="subtitle fancy">
+                        <span>You</span>
+                      </p>
+                       <a href="#" target="_blank">
+                        <h3 class="title">
+                          Joining Soon
+                        </h3>
+                      </a>
+                      <p class="content-blog">
+                        Show your guts, you are next hustlers..
+                      </p>
+                    </div>
+                  </div>  
+
+                 
+
+                  
 
                                   
 
@@ -897,12 +909,12 @@ $arr = json_decode($contents, true);
                   <span>Contact</span>
                 </h3>
                 <p class="content-detail">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                  There are four ways, and only four ways, in which we have contact with the world. We are evaluated and classified by these four contacts: what we do, how we look, what we say, and how we say it.
                 </p>
 
               </div>
               <div class="col-md-9 content-right">
-                <form>
+                <form action="mailto:contactus@medicento.com" method="post" enctype="text/plain">
                   <div class="group">
                     <input required="" type="text"><span class="highlight"></span><span class="bar"></span><label>Name</label>
                   </div>
@@ -925,13 +937,19 @@ $arr = json_decode($contents, true);
           <div class="footer-top">
             <ul class="socials">
               <li class="facebook">
-                <a href="#" data-hover="Facebook">Facebook</a>
-              </li>
-              <li class="twitter">
-                <a href="#" data-hover="Twitter">Twitter</a>
+                <a href="https://www.facebook.com/medicento" target="_blank" data-hover="Facebook">Facebook</a>
               </li>
               <li class="insta">
-                <a href="#" data-hover="Instagram">Instagram</a>
+                <a href="https://www.instagram.com/medicento" target="_blank" data-hover="Instagram">Instagram</a>
+              </li>
+              <li class="twitter">
+                <a href="https://www.twitter.com/medicento" target="_blank" data-hover="Twitter">Twitter</a>
+              </li>
+              <li class="WhatsApp">
+                <a href="https://api.whatsapp.com/send?phone=919743959497" " target="_blank"  data-hover="WhatsApp">WhatsApp</a>
+              </li>
+              <li class="linkedin">
+                <a href="https://www.linkedin.com/company/13351575/" target="_blank" data-hover="LinkedIn">LinkedIn</a>
               </li>
             </ul>
           </div>

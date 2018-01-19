@@ -1134,7 +1134,7 @@ ul.portfolio-image li .desc{
   list-style: outside none none;
   float: left;
   overflow: hidden;
-  width: 33.33333%;
+  width: 20%;
   font-size: 13px;
 }
 
@@ -1190,13 +1190,27 @@ ul.portfolio-image li .desc{
   background-color: #527bbb;
 }
 .twitter{
-  background: #ABABAB;
+  background:#d8d8d8 ;
 }
 .twitter a:after{
   background-color: #77ccf1;
 }
+.WhatsApp{
+  background: #ABABAB;
+}
+.WhatsApp a:after{
+  background: #67bb3b;
+}
+
+
+.linkedin{
+  background: #969696;
+}
+.linkedin a:after{
+  background: #1550a0;
+}
 .insta{
-  background: #d8d8d8;
+  background: #ABABAB;
 }
 .insta a:after{
   background: #8f1ee4;
