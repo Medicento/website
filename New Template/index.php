@@ -77,7 +77,7 @@ $arr = json_decode($contents, true);
       <div class="for-sticky">
         <!--LOGO-->
         <div class="col-md-2 col-xs-6 logo">
-          <a href="index.html"><img alt="logo" style="margin-top: 11px;"  src="images/logo_small.png"></a>
+          <a href="index.php"><img alt="logo" style="margin-top: 11px;"  src="images/logo_small.png"></a>
         </div>
         <!--/.LOGO END-->
       </div>
@@ -146,7 +146,7 @@ $arr = json_decode($contents, true);
                     <h4>Your Medicines has a new address</h4>
                     <br>
                     <br>
-                    <button  class="button button2" ">Know Your Medicine</button>
+                   <img alt="logo" style="margin-top: 1-37px; max-width: 33%;"  src="images/logoMedicento.png">
                     <!--<button  class="button button2" onclick="openSearch()">Know Your Medicine</button>-->
                   </div>
               </div>
@@ -204,9 +204,9 @@ $arr = json_decode($contents, true);
                 <h3 class="title-small">
                   <span>DISTRIBUTOR SERVICES</span>
                 </h3>
-                <p class="content-detail">
+               <!-- <p class="content-detail">
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-                </p>
+                </p>-->
               </div>
               <div class="col-md-9 content-right">
                 <div class="row">
@@ -276,9 +276,9 @@ $arr = json_decode($contents, true);
                 <h3 class="title-small">
                   <span>PHARMACY SERVICES</span>
                 </h3>
-                <p class="content-detail">
+             <!--   <p class="content-detail">
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-                </p>
+                </p> -->
               </div>
               <div class="col-md-9 content-right">
                 <div class="row">

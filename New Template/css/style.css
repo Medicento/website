@@ -526,10 +526,10 @@ p {
 .hero-content{
   position: absolute;
     text-align: center;
-    min-width: 380px;
+    max-width: 462px;
     min-height: 380px;
     left: 50%;
-    top: 55%;
+    top: 62%;
     padding: 70px;
     background: rgba(58, 173, 165, 0.8);
     outline: 4px double #4c9e91;
