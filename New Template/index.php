@@ -57,6 +57,10 @@ $arr = json_decode($contents, true);
 }
 
 */ Color line credit to ninjamonk: [[http://bootsnipp.com/snippets/featured/mix-amp-match-login]]
+  .fa:hover {
+    opacity: 0.7;
+}
+
     </style>
     
     <!--[if lt IE 9]>
@@ -141,14 +145,9 @@ $arr = json_decode($contents, true);
             <div class="row">
               <div class="wrap-hero-content">
                   <div class="hero-content">
-                    <img alt="logo" style="margin-top: 1-37px; max-width: 33%;"  src="images/logoMedicento.png">
-
-                    
-                    <br>
-                    <br>
                      <h1 style="font-size: 60px;"><b>medicento.</b></h1>
                     
-                    <h4>Your Medicines has a new address</h4>                  <!--<button  class="button button2" onclick="openSearch()">Know Your Medicine</button>-->
+                    <h4>your medicine channel</h4>                  <!--<button  class="button button2" onclick="openSearch()">Know Your Medicine</button>-->
                   </div>
               </div>
               <div class="mouse-icon margin-20">
@@ -183,7 +182,7 @@ $arr = json_decode($contents, true);
                   <div class="wrap-about">
                     <div class="w-content">
                       <p class="head-about">
-                        Medicento is a health tech start-up in pharmaceutical space building up an unified channel for seamless flow of pharmaceutical products using data driven approach. We intend to change the health-care ecosystem by introducing demand (pull based)flow of medicines rather than push based, thus optimizing Inventory, delivery model and minimizing expired products. Our smart AI based inventory management system would segregate products based on the demand of the market thus decreasing stock in period and generating better revenues.
+                        medicento is a health tech start-up in pharmaceutical space building up an unified channel for seamless flow of pharmaceutical products using data driven approach. We intend to change the health-care ecosystem by introducing demand (pull based)flow of medicines rather than push based, thus optimizing Inventory, delivery model and minimizing expired products. Our smart AI based inventory management system would segregate products based on the demand of the market thus decreasing stock in period and generating better revenues.
                       </p>
                     </div>
                   </div>
@@ -202,6 +201,7 @@ $arr = json_decode($contents, true);
           <div class="container">
             <div class="row">
               <div class="col-md-3">
+                <i class="fa fa-users fa-4x" aria-hidden="true"></i>
                 <h3 class="title-small">
                   <span>DISTRIBUTOR SERVICES</span>
                 </h3>
@@ -274,6 +274,7 @@ $arr = json_decode($contents, true);
             </div>
             <div class="row">
               <div class="col-md-3">
+                <i class="fa fa-plus-square fa-4x" aria-hidden="true"></i>
                 <h3 class="title-small">
                   <span>PHARMACY SERVICES</span>
                 </h3>
@@ -786,11 +787,14 @@ $arr = json_decode($contents, true);
                       <p class="subtitle fancy">
                         <span>Arpan Debasis</span>
                       </p>
+                      <center>
                        <a href="https://www.linkedin.com/in/arpan-debasis-794a1050/" target="_blank">
-                        <h3 class="title">
+                        <i class="fa fa-linkedin-square fa-2x" onMouseOver="this.style.opacity='0.7'" onMouseOut="this.style.opacity='1'" aria-hidden="true"></i>
+                      </a>
+                      </center>
+                      <h3 class="title">
                          CEO & Founder
                         </h3>
-                      </a>
                       <p class="content-blog">
                         The dream is to fill gaps and mend the loop-holes of  the pharmaceutical  industry and provide the customers, a reliable and convenient platform for medicines.
                       </p>
@@ -803,11 +807,13 @@ $arr = json_decode($contents, true);
                      <p class="subtitle fancy">
                         <span>Abhishek Sharma</span>
                       </p>
-                       <a href="https://www.linkedin.com/in/abhishek-sharma-443206126/" target="_blank">
-                        <h3 class="title">
+                      <center> <a href="https://www.linkedin.com/in/abhishek-sharma-443206126/" target="_blank">
+                        <i class="fa fa-linkedin-square fa-2x" onMouseOver="this.style.opacity='0.7'" onMouseOut="this.style.opacity='1'" aria-hidden="true"></i>
+                      </a>
+                      </center>
+                      <h3 class="title">
                           Product Manager
                         </h3>
-                      </a>
                       <p class="content-blog">
                         Working in a startup is always excites me , as because I get open space to work and get opportunity to change in society. 
                       </p>
@@ -820,11 +826,15 @@ $arr = json_decode($contents, true);
                       <p class="subtitle fancy">
                         <span>Aditya Garg</span>
                       </p>
+                      <center>
                        <a href="https://www.linkedin.com/in/aditya-garg-3085b9a4/" target="_blank">
-                        <h3 class="title">
+                         <i class="fa fa-linkedin-square fa-2x" onMouseOver="this.style.opacity='0.7'" onMouseOut="this.style.opacity='1'" aria-hidden="true"></i>
+                      </a>
+                      </center>
+                      <h3 class="title">
                           Operation Head
                         </h3>
-                      </a>
+                      
                       <p class="content-blog">
                        Prior to his working at companies like IDEA and FLIPKART, he brings in his rich
                       experience from these companies and is the best fit to Spearhead the operations. He has
@@ -839,11 +849,15 @@ $arr = json_decode($contents, true);
                       <p class="subtitle fancy">
                         <span>Darshan Mishra</span>
                       </p>
+                      <center>
                       <a href="https://www.linkedin.com/in/darshan-mishra-90aa1890/" target="_blank">
-                        <h3 class="title">
+                         <i class="fa fa-linkedin-square fa-2x" onMouseOver="this.style.opacity='0.7'" onMouseOut="this.style.opacity='1'" aria-hidden="true"></i>
+                        
+                      </a>
+                      </center>
+                      <h3 class="title">
                           Lead Developer
                         </h3>
-                      </a>
                       <p class="content-blog">
                         Lead the technology with creative and laborious team along with friendly environment & just put every effort and knowledge.
                       </p>
@@ -858,11 +872,15 @@ $arr = json_decode($contents, true);
                       <p class="subtitle fancy">
                         <span>Prashant Bhardwaj</span>
                       </p>
+                      <center>
                       <a href="https://www.linkedin.com/in/prashantkbhardwaj/" target="_blank">
-                        <h3 class="title">
+                         <i class="fa fa-linkedin-square fa-2x" onMouseOver="this.style.opacity='0.7'" onMouseOut="this.style.opacity='1'" aria-hidden="true"></i>
+
+                      </a>
+                      </center>
+                       <h3 class="title">
                           CTO
                         </h3>
-                      </a>
                       <p class="content-blog">
                         Building up something with all the resources in hand is an easy task rather heavy duty from scratch with minimum available resources.
                       </p>

@@ -526,16 +526,17 @@ p {
 .hero-content{
   position: absolute;
     text-align: center;
-    max-width: 462px;
-    min-height: 380px;
+    max-width: 444px;
+    min-height: 250px;
     left: 50%;
-    top: 62%;
+    top: 50%;
     padding: 70px;
     background: rgba(58, 173, 165, 0.8);
     outline: 4px double #4c9e91;
   outline-offset: 8px;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
+      border-radius: 129px;
 }
 
 /*mouse*/
@@ -551,7 +552,7 @@ p {
   display: block;
   left: 0;
   right: 0;
-  bottom: 30px;
+  bottom: 180px;
   z-index: 100;
 }
 
