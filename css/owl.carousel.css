@@ -24,6 +24,12 @@
 	position: relative;
 	-webkit-transform: translate3d(0px, 0px, 0px);
 }
+.owl-carousel2{
+	padding-bottom: 28px;
+}
+.owl-carousel2 .owl-controls .owl-page span{
+	background: #2f2f2f !important;
+}
 .owl-carousel .owl-wrapper-outer{
 	overflow: hidden;
 	position: relative;
