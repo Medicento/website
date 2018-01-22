@@ -126,6 +126,9 @@ $arr = json_decode($contents, true);
             <a data-scroll="" href="#contact">
               <span>Contact</span>
             </a>
+            <a data-scroll="" href="career.php">
+              <span>Career</span>
+            </a>
           </div>
         </nav>
         <button class="close-button" id="close-button">Close Menu</button>
@@ -885,11 +888,11 @@ $arr = json_decode($contents, true);
                       </p>
                        <a href="#" target="_blank">
                         <h3 class="title">
-                          Join Us!
+                          <a href="career.php">Join Us!</a>
                         </h3>
                       </a>
                       <p class="content-blog">
-                        Do you equally love Game of Thrones and have a passion to work with such dedicated and motivated souls? medicento is the correct world for you. Come aboard and let's make the next big thing.
+                        Do you equally love Game of Thrones and have a passion to work with such dedicated and motivated souls? medicento is the correct world for you. Come aboard and let's make the next big thing. Valar morghulis!
                         <br><br><br><br><br><br><br><br>
                       </p>
                       <p>

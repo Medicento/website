@@ -13,11 +13,11 @@ $arr = json_decode($contents, true);
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bodo - Simple One Page Personal</title>
+    <title>medicento.</title>
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <meta content="Bodo - Simple One Page Personal" name="description">
-    <meta content="BdgPixel" name="author">
+    <meta content="medicento - your medicine channel" name="description">
+    <meta content="Prashant Bhardwaj" name="author">
     <!--Fav-->
     <link href="images/favicon.ico" rel="shortcut icon">
     
@@ -33,17 +33,6 @@ $arr = json_decode($contents, true);
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script type="text/javascript">
-   
-      function openSearch() {
-          document.getElementById("myOverlay").style.display = "block";
-      }
-
-      function closeSearch() {
-          document.getElementById("myOverlay").style.display = "none";
-      }
-
-    </script>
     
     <!--[if lt IE 9]>
        <script type="text/javascript" src="js/html5shiv.min.js"></script>
