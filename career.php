@@ -163,7 +163,7 @@ $arr = json_decode($contents, true);
                                                         </ul>
                                                     </p>
                                                     <p class="text-center">
-                                                        <button class="btn btn-default">Apply Now</button>
+                                                        <button href="#senior" data-toggle="modal" data-target=".bs-modal-sm" class="btn btn-default">Apply Now</button>
                                                     </p>
                                                 </div>
                                             </div>
@@ -194,7 +194,7 @@ $arr = json_decode($contents, true);
                                                         </ul>
                                                     </p>
                                                     <p class="text-center">
-                                                        <button class="btn btn-default">Apply Now</button>
+                                                        <button href="#junior" data-toggle="modal" data-target=".bs-modal-sm1" class="btn btn-default">Apply Now</button>
                                                     </p>
                                                 </div>
                                             </div>
@@ -213,7 +213,7 @@ $arr = json_decode($contents, true);
         
 
         <!--CONTACT-->
-        <section id="contact" class="white-bg">
+       <section id="contact" class="white-bg">
           <div class="container">
             <div class="row">
               <div class="col-md-3">
@@ -221,12 +221,12 @@ $arr = json_decode($contents, true);
                   <span>Contact</span>
                 </h3>
                 <p class="content-detail">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                  There are four ways, and only four ways, in which we have contact with the world. We are evaluated and classified by these four contacts: what we do, how we look, what we say, and how we say it.
                 </p>
 
               </div>
               <div class="col-md-9 content-right">
-                <form>
+                <form action="mailto:contactus@medicento.com" method="post" enctype="text/plain">
                   <div class="group">
                     <input required="" type="text"><span class="highlight"></span><span class="bar"></span><label>Name</label>
                   </div>
@@ -249,13 +249,19 @@ $arr = json_decode($contents, true);
           <div class="footer-top">
             <ul class="socials">
               <li class="facebook">
-                <a href="#" data-hover="Facebook">Facebook</a>
-              </li>
-              <li class="twitter">
-                <a href="#" data-hover="Twitter">Twitter</a>
+                <a href="https://www.facebook.com/medicento" target="_blank" data-hover="Facebook">Facebook</a>
               </li>
               <li class="insta">
-                <a href="#" data-hover="Instagram">Instagram</a>
+                <a href="https://www.instagram.com/medicento" target="_blank" data-hover="Instagram">Instagram</a>
+              </li>
+              <li class="twitter">
+                <a href="https://www.twitter.com/medicento" target="_blank" data-hover="Twitter">Twitter</a>
+              </li>
+              <li class="WhatsApp">
+                <a href="https://api.whatsapp.com/send?phone=919743959497" " target="_blank"  data-hover="WhatsApp">WhatsApp</a>
+              </li>
+              <li class="linkedin">
+                <a href="https://www.linkedin.com/company/13351575/" target="_blank" data-hover="LinkedIn">LinkedIn</a>
               </li>
             </ul>
           </div>
@@ -264,7 +270,7 @@ $arr = json_decode($contents, true);
             <div class="container">
               <div class="row">
                <h3 class="text-center"><b>Email -</b> contactus@medicento.com, <b>Call -</b>+91-9743959497 / 080-41131583</h3>
-               <h1 class="text-center"><b>medicento.</b></h1>
+               <h1 class="text-center"><b>Mediclick Healthcare Services Pvt. Ltd.</b></h1>
               </div>
             </div>
           </div>
@@ -276,6 +282,161 @@ $arr = json_decode($contents, true);
     <!--/.CONTENT-WRAP END-->
     </div>
     
+
+    <div class="modal fade bs-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" >
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content" style="min-width: 500px;margin-left: -70px;">
+        <br>
+        <div class="bs-example bs-example-tabs">
+            <ul id="myTab" class="nav nav-tabs">
+             
+              <li class="active"><a href="#senior" data-toggle="tab">Sales Executive (Senior)</a></li>
+             
+            </ul>
+        </div>
+      <div class="modal-body" style="padding: 35px;">
+        <div id="myTabContent" class="tab-content">
+        
+        <div class="tab-pane fade active in" id="senior">
+            <form class="form-horizontal">
+            <fieldset>
+            <!-- Sign Up Form -->
+            <!-- Text input-->
+
+             <!-- Text input-->
+            <div class="control-group">
+              <label class="control-label" for="userid">Name:</label>
+              <div class="controls">
+                <input id="userid" name="userid" class="form-control" type="text" placeholder="Full Name" class="input-large" required="">
+              </div>
+            </div>
+
+            <div class="control-group">
+              <label class="control-label" for="Email">Email:</label>
+              <div class="controls">
+                <input id="Email" name="Email" class="form-control" type="text" placeholder="demo@example.com" class="input-large" required="">
+              </div>
+            </div>
+
+             <!-- Text input-->
+            <div class="control-group">
+              <label class="control-label" for="userid">Phone:</label>
+              <div class="controls">
+                <input id="userid" name="userid" class="form-control" type="text" placeholder="Contact Number" class="input-large" required="">
+              </div>
+            </div>
+
+             <!-- Text input-->
+            <div class="control-group">
+              <label class="control-label" for="userid">Upload CV:</label>
+              <div class="controls">
+                <input id="userid" name="userid" class="form-control" type="file" class="input-large" required="">
+              </div>
+            </div>
+            
+           
+            
+            <!-- Password input-->
+            
+            
+            <!-- Button -->
+            <div class="control-group">
+              <label class="control-label" for="confirmsignup"></label>
+              <div class="controls">
+                <button id="confirmsignup" name="confirmsignup" class="btn btn-success">Apply</button>
+              </div>
+            </div>
+            </fieldset>
+            </form>
+      </div>
+    </div>
+      </div>
+      <div class="modal-footer">
+      <center>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </center>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade bs-modal-sm1" id="myModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" >
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content" style="min-width: 500px;margin-left: -70px;">
+        <br>
+        <div class="bs-example bs-example-tabs">
+            <ul id="myTab" class="nav nav-tabs">
+             
+              <li class="active"><a href="#junior" data-toggle="tab">Sales Executive (Junior)</a></li>
+             
+            </ul>
+        </div>
+      <div class="modal-body" style="padding: 35px;">
+        <div id="myTabContent" class="tab-content">
+        
+        <div class="tab-pane fade active in" id="junior">
+            <form class="form-horizontal">
+            <fieldset>
+            <!-- Sign Up Form -->
+            <!-- Text input-->
+
+             <!-- Text input-->
+            <div class="control-group">
+              <label class="control-label" for="userid">Name:</label>
+              <div class="controls">
+                <input id="userid" name="userid" class="form-control" type="text" placeholder="Full Name" class="input-large" required="">
+              </div>
+            </div>
+
+            <div class="control-group">
+              <label class="control-label" for="Email">Email:</label>
+              <div class="controls">
+                <input id="Email" name="Email" class="form-control" type="text" placeholder="demo@example.com" class="input-large" required="">
+              </div>
+            </div>
+
+             <!-- Text input-->
+            <div class="control-group">
+              <label class="control-label" for="userid">Phone:</label>
+              <div class="controls">
+                <input id="userid" name="userid" class="form-control" type="text" placeholder="Contact Number" class="input-large" required="">
+              </div>
+            </div>
+
+             <!-- Text input-->
+            <div class="control-group">
+              <label class="control-label" for="userid">Upload CV:</label>
+              <div class="controls">
+                <input id="userid" name="userid" class="form-control" type="file" class="input-large" required="">
+              </div>
+            </div>
+            
+           
+            
+            <!-- Password input-->
+            
+            
+            <!-- Button -->
+            <div class="control-group">
+              <label class="control-label" for="confirmsignup"></label>
+              <div class="controls">
+                <button id="confirmsignup" name="confirmsignup" class="btn btn-success">Apply</button>
+              </div>
+            </div>
+            </fieldset>
+            </form>
+      </div>
+    </div>
+      </div>
+      <div class="modal-footer">
+      <center>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </center>
+      </div>
+    </div>
+  </div>
+</div>
 
     <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
     <script src="js/jquery.appear.js" type="text/javascript"></script>
