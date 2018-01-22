@@ -805,7 +805,8 @@ $arr = json_decode($contents, true);
                         </h3>
                       <p class="content-blog">
                         Arpan, the Lord Commander of castle black *our office*, makes sure everyone is fed well because men of the night's watch can't work without food. The word burning passion is personified by him, having knowledge of almost all the buzz going around the start-up world he gets a new business idea every now and then. If you are looking for someone to talk about the healthcare business, you can find him at Chai Point, yes he hoggs on tea and since winter has already come to westros only tea comes to rescue. 
-                      </p><br><br><br>
+                      </p>
+                      <p>&nbsp;</p><br>
                     </div>
                   </div>
 
@@ -849,6 +850,54 @@ $arr = json_decode($contents, true);
                     </div>
                   </div>
 
+
+                   <div class="grid-item">
+                    <div class="wrap-article">
+                      <img alt="blog5" class="img-circle text-center" src="images/darshan.jpg">
+                      <p class="subtitle fancy">
+                        <span>Darshan Mishra</span>
+                      </p>
+                      <center>
+                      <a href="https://www.linkedin.com/in/darshan-mishra-90aa1890/" target="_blank">
+                         <i class="fa fa-linkedin-square fa-2x" onMouseOver="this.style.opacity='0.7'" onMouseOut="this.style.opacity='1'" aria-hidden="true"></i>
+                        
+                      </a>
+                      </center>
+                      <h3 class="title">
+                          Lead Developer
+                        </h3>
+                      <p class="content-blog">
+                        Have you ever came across a wildling who codes? Well, we have one, Darshan or Tormund as we call him, is equally wild and equally geek. If the world allocated only two things to do for a man, he would choose to code and to sleep. He knows how to survive the cold. He says, "You have to keep moving, that's the secret. Walking's good, fighting's better, coding's best." 
+                      </p>
+                      <p>&nbsp;</p>
+                      <p>&nbsp;</p>
+                      <br>
+                      <br>
+                    </div>
+                  </div>
+
+                  <div class="grid-item">
+                    <div class="wrap-article">
+                      <img alt="blog-3" class="img-circle text-center" src="images/employee.jpg">
+                      <p class="subtitle fancy">
+                        <span>You</span>
+                      </p>
+                       <a href="#" target="_blank">
+                        <h3 class="title">
+                          Join Us!
+                        </h3>
+                      </a>
+                      <p class="content-blog">
+                        Do you equally love Game of Thrones and have a passion to work with such dedicated and motivated souls? medicento is the correct world for you. Come aboard and let's make the next big thing.
+                        <br><br><br><br><br><br><br><br>
+                      </p>
+                      <p>
+                        <b>P.S</b>: Yes, we judge you if you are not a fan of GoT. :p
+                      </p>
+                      
+                    </div>
+                  </div>  
+
                   <div class="grid-item">
                     <div class="wrap-article">
                       <img alt="blog2" class="img-circle text-center" src="images/prashant.jpg">
@@ -870,50 +919,7 @@ $arr = json_decode($contents, true);
                     </div>
                   </div>
 
-                   <div class="grid-item">
-                    <div class="wrap-article">
-                      <img alt="blog5" class="img-circle text-center" src="images/darshan.jpg">
-                      <p class="subtitle fancy">
-                        <span>Darshan Mishra</span>
-                      </p>
-                      <center>
-                      <a href="https://www.linkedin.com/in/darshan-mishra-90aa1890/" target="_blank">
-                         <i class="fa fa-linkedin-square fa-2x" onMouseOver="this.style.opacity='0.7'" onMouseOut="this.style.opacity='1'" aria-hidden="true"></i>
-                        
-                      </a>
-                      </center>
-                      <h3 class="title">
-                          Lead Developer
-                        </h3>
-                      <p class="content-blog">
-                        Have you ever came across a wildling who codes? Well, we have one, Darshan or Tormund as we call him, is equally wild and equally geek. If the world allocated only two things to do for a man, he would choose to code and to sleep. He knows how to survive the cold. He says, "You have to keep moving, that's the secret. Walking's good, fighting's better, coding's best." 
-                      </p>
-                    </div>
-                  </div>
-
                   
-                  
-                  
-
-
-                  <div class="grid-item">
-                    <div class="wrap-article">
-                      <img alt="blog-3" class="img-circle text-center" src="images/employee.jpg">
-                      <p class="subtitle fancy">
-                        <span>You</span>
-                      </p>
-                       <a href="#" target="_blank">
-                        <h3 class="title">
-                          Join Us!
-                        </h3>
-                      </a>
-                      <p class="content-blog">
-                        Do you equally love Game of Thrones and have a passion to work with such dedicated and motivated souls? medicento is the correct world for you. Come aboard and let's make the next big thing.
-                        <br><br><br><br><br><br>
-                        P.S: Yes, we judge you if you are not a fan of GoT. :p
-                      </p>
-                    </div>
-                  </div>  
 
                  
 
