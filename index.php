@@ -805,7 +805,7 @@ $arr = json_decode($contents, true);
                         </h3>
                       <p class="content-blog">
                         Arpan, the Lord Commander of castle black *our office*, makes sure everyone is fed well because men of the night's watch can't work without food. The word burning passion is personified by him, having knowledge of almost all the buzz going around the start-up world he gets a new business idea every now and then. If you are looking for someone to talk about the healthcare business, you can find him at Chai Point, yes he hoggs on tea and since winter has already come to westros only tea comes to rescue. 
-                      </p>
+                      </p><br><br><br>
                     </div>
                   </div>
 
@@ -820,11 +820,11 @@ $arr = json_decode($contents, true);
                       </a>
                       </center>
                       <h3 class="title">
-                          Project Manager
+                          Product Manager
                         </h3>
                       <p class="content-blog">
                         He drinks and knows things, yes Abhishek is the Tyrion of our team. If not making strategies for hiring new ninjas or on-boarding customers you can find him searching for exotic party locations. Abhishek makes sure the product development is on time and the team is going in the right direction. Having worked for many start-ups he tries to know as many people as he can, you never know which one you'll need.
-                      </p>
+                      </p><br><br><br><br><br>
                     </div>
                   </div>
 
@@ -845,6 +845,27 @@ $arr = json_decode($contents, true);
                       
                       <p class="content-blog">
                        Aditya, the man of honour, the almost IITian, the overachiever, the most respected Stark, folks Ned Stark was characterized after looking at Aditya. Don't judge him on his looks, he is a pro CS player, we can bet his head shots are better than yours. Illness can't suppress the passion for his work, this workoholic soul once came to the office with a drip in his wrist. Having worked as the delivery chain strategist at giants like Flipkart, he swiftly manages all the operations and the revenue plans of the company. But well, if it is a weekend and you have a mouse, the challenge for CS is on.  
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="grid-item">
+                    <div class="wrap-article">
+                      <img alt="blog2" class="img-circle text-center" src="images/prashant.jpg">
+                      <p class="subtitle fancy">
+                        <span>Prashant Bhardwaj</span>
+                      </p>
+                      <center>
+                      <a href="https://www.linkedin.com/in/prashantkbhardwaj/" target="_blank">
+                         <i class="fa fa-linkedin-square fa-2x" onMouseOver="this.style.opacity='0.7'" onMouseOut="this.style.opacity='1'" aria-hidden="true"></i>
+
+                      </a>
+                      </center>
+                       <h3 class="title">
+                          CTO
+                        </h3>
+                      <p class="content-blog">
+                            This Khal of his Khalasaars *tech team*, has only one moon of his life, his mac. The youngest of all, Drogo *Prashant* has tried it all be it any kind of tech stack or any kind of food. Having a start-up of his own while in college, he knows almost all the pains and pleasures of starting one. In the office he spends his time either creating bots or surfing Zomato. Yes, our CTO is a food hogger, nothing can make him happier than a plate of jalebis. When it comes to product deplyoment he becomes the fierce coder Drogo and kills all the bugs in no time. M'athchomaroon! 
                       </p>
                     </div>
                   </div>
@@ -872,26 +893,7 @@ $arr = json_decode($contents, true);
 
                   
                   
-                  <div class="grid-item">
-                    <div class="wrap-article">
-                      <img alt="blog2" class="img-circle text-center" src="images/prashant.jpg">
-                      <p class="subtitle fancy">
-                        <span>Prashant Bhardwaj</span>
-                      </p>
-                      <center>
-                      <a href="https://www.linkedin.com/in/prashantkbhardwaj/" target="_blank">
-                         <i class="fa fa-linkedin-square fa-2x" onMouseOver="this.style.opacity='0.7'" onMouseOut="this.style.opacity='1'" aria-hidden="true"></i>
-
-                      </a>
-                      </center>
-                       <h3 class="title">
-                          CTO
-                        </h3>
-                      <p class="content-blog">
-                            This Khal of his Khalasaars *tech team*, has only one moon of his life, his mac. The youngest of all, Drogo *Prashant* has tried it all be it any kind of tech stack or any kind of food. Having a start-up of his own while in college, he knows almost all the pains and pleasures of starting one. In the office he spends his time either creating bots or surfing Zomato. Yes, our CTO is a food hogger, nothing can make him happier than a plate of jalebis. When it comes to product deplyoment he becomes the fierce coder Drogo and kills all the bugs in no time. M'athchomaroon! 
-                      </p>
-                    </div>
-                  </div>
+                  
 
 
                   <div class="grid-item">
