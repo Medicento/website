@@ -52,7 +52,7 @@ $arr = json_decode($contents, true);
       <div class="for-sticky">
         <!--LOGO-->
         <div class="col-md-2 col-xs-6 logo" style="margin-top: -13px;">
-          <a href="index.html"><h2><b>medicento.</b></h2></a>
+          <a href="index.php"><h2><b>medicento.</b></h2></a>
         </div>
         <!--/.LOGO END-->
       </div>
