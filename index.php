@@ -12,6 +12,14 @@ $arr = json_decode($contents, true);
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111686267-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-111686267-1');
+    </script>
     <meta charset="utf-8">
     <title>medicento.</title>
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
