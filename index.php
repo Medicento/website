@@ -190,7 +190,7 @@ $arr = json_decode($contents, true);
                   <div class="wrap-about">
                     <div class="w-content">
                       <p class="head-about">
-                        medicento is a health tech start-up in pharmaceutical space building up an unified channel for seamless flow of pharmaceutical products using data driven approach. We intend to change the health-care ecosystem by introducing demand (pull based)flow of medicines rather than push based, thus optimizing Inventory, delivery model and minimizing expired products. Our smart AI based inventory management system would segregate products based on the demand of the market thus decreasing stock in period and generating better revenues.
+                        medicento is a health tech startup in pharmaceutical space building up a unified channel for seamless flow of pharmaceutical products using a data driven approach. We intend to change the healthcare ecosystem by introducing demand (pull based) flow of medicines rather than push based, thus optimizing Inventory, delivery model and minimizing expired products. Our smart AI based inventory management system would segregate products based on the demand of the market, thus decreasing stock in period and generating better revenues.
                       </p>
                     </div>
                   </div>
@@ -241,7 +241,7 @@ $arr = json_decode($contents, true);
                           EFFICIENT LOGISTICS
                         </p>
                         <p class="text-grey">
-                          Delivery at per-determined slots as per your convenience. 
+                          Delivery as per-determined slots as per your convenience. 
                         </p>
                       </div>
                     </li>
@@ -301,7 +301,7 @@ $arr = json_decode($contents, true);
                           LIVE ORDERING SYSTEM
                         </p>
                         <p class="text-grey">
-                          Get access to real time live inventory of distributors. An easy and convinient way to order.
+                          Get access to the real time live inventory of distributors. An easy and convenient way to order.
                         </p>
                       </div>
                     </li>
@@ -328,7 +328,7 @@ $arr = json_decode($contents, true);
 
                         </p>
                         <p class="text-grey">
-                          Innovative payment soluntion for all your purchase and settlements. 
+                          Innovative payment solutions for all your purchases and settlements. 
 
                         </p>
                       </div>
@@ -804,7 +804,7 @@ $arr = json_decode($contents, true);
                          CEO & Founder
                         </h3>
                       <p class="content-blog">
-                        Arpan, the Lord Commander of castle black *our office*, makes sure everyone is fed well because men of the night's watch can't work without food. The word burning passion is personified by him, having knowledge of almost all the buzz going around the start-up world he gets a new business idea every now and then. If you are looking for someone to talk about the healthcare business, you can find him at Chai Point, yes he hoggs on tea and since winter has already come to westros only tea comes to rescue. 
+                        Arpan, the Lord Commander of castle black *our office*, makes sure everyone is fed well because men of the night's watch can't work without food. The word burning passion is personified by him, having knowledge of almost all the buzz going around the start-up world he gets a new business idea every now and then. If you are looking for someone to talk about the healthcare business, you can find him at Chai Point, yes, he hoggs on tea and since winter has already come to Westros only tea comes to rescue.
                       </p>
                       <p>&nbsp;</p><br>
                     </div>
@@ -824,7 +824,7 @@ $arr = json_decode($contents, true);
                           Product Manager
                         </h3>
                       <p class="content-blog">
-                        He drinks and knows things, yes Abhishek is the Tyrion of our team. If not making strategies for hiring new ninjas or on-boarding customers you can find him searching for exotic party locations. Abhishek makes sure the product development is on time and the team is going in the right direction. Having worked for many start-ups he tries to know as many people as he can, you never know which one you'll need.
+                        He drinks and knows things, yes Abhishek is the Tyrion of our team. If not, making strategies for hiring new ninjas or on-boarding customers you can find him searching for exotic party locations. Abhishek makes sure the product development is on time and the team is going in the right direction. Having worked for many startups, he tries to know as many people as he can, you never know which one you'll need.
                       </p><br><br><br><br><br>
                     </div>
                   </div>
@@ -845,7 +845,7 @@ $arr = json_decode($contents, true);
                         </h3>
                       
                       <p class="content-blog">
-                       Aditya, the man of honour, the almost IITian, the overachiever, the most respected Stark, folks Ned Stark was characterized after looking at Aditya. Don't judge him on his looks, he is a pro CS player, we can bet his head shots are better than yours. Illness can't suppress the passion for his work, this workoholic soul once came to the office with a drip in his wrist. Having worked as the delivery chain strategist at giants like Flipkart, he swiftly manages all the operations and the revenue plans of the company. But well, if it is a weekend and you have a mouse, the challenge for CS is on.  
+                       Aditya, the man of honour, the almost IITian, the overachiever, the most respected Stark, folks Ned Stark was characterized after looking at Aditya. Don't judge him on his looks, he is a pro CS player, we can bet his head shots are better than yours. Illness can't suppress the passion for his work, this workaholic soul once came to the office with a drip in his wrist. Having worked as the delivery chain strategist at giants like Flipkart, he swiftly manages all the operations and the revenue plans of the company. But well, if it is a weekend and you have a mouse, the challenge for CS is on.  
                       </p>
                     </div>
                   </div>
@@ -876,6 +876,7 @@ $arr = json_decode($contents, true);
                     </div>
                   </div>
 
+                  
                   <div class="grid-item">
                     <div class="wrap-article">
                       <img alt="blog-3" class="img-circle text-center" src="images/employee.jpg">
