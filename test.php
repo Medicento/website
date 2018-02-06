@@ -1,4 +1,5 @@
 <?php
+
 $url = 'https://newsapi.org/v2/everything?sources=medical-news-today&apiKey=32cd906e772f4f9cb72539fbc2a22a79';
  
 $contents = file_get_contents($url);

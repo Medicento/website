@@ -1,4 +1,6 @@
 <?php
+require_once'db/config.php';
+
 $url = 'https://newsapi.org/v2/everything?sources=medical-news-today&apiKey=32cd906e772f4f9cb72539fbc2a22a79';
  
 $contents = file_get_contents($url);
@@ -158,7 +160,8 @@ $arr = json_decode($contents, true);
                   <div class="hero-content">
                      <h1 style="font-size: 60px;"><b>medicento.</b></h1>
                     
-                        <h4>your medicine channel</h4>                  <!--<button  class="button button2" onclick="openSearch()">Know Your Medicine</button>-->
+                        <h4>your medicine channel</h4>                  
+                        <button  class="button button2" onclick="openSearch()">Know Your Medicine</button>
                   </div>
               </div>
               <div class="mouse-icon margin-20">
@@ -171,8 +174,19 @@ $arr = json_decode($contents, true);
         <div id="myOverlay" class="overlay">
           <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
           <div class="overlay-content">
-            <form action="/action_page.php">
-              <input type="text" placeholder="Search.." name="search">
+            <form method='post' action="search.php">
+             <input type="text" name="key" id="default" list="languages" placeholder="e.g. JavaScript">
+              <datalist id="languages">
+                <?php
+                $sql = $link->query("SELECT * FROM `TABLE 1` ORDER BY `medicine_name` ASC");
+                while($row = @mysqli_fetch_assoc($sql))
+                 {
+                ?>
+                <option value="<?php echo $row['medicine_name']; ?>">
+                <?php
+              }
+              ?>
+              </datalist>
               <button type="submit"><i class="fa fa-search"></i></button>
             </form>
           </div>
