@@ -1046,9 +1046,9 @@ $arr = json_decode($contents, true);
             <!-- Sign In Form -->
             <!-- Text input-->
             <div class="control-group">
-              <label class="control-label" for="userid">Alias:</label>
+              <label class="control-label" for="userid">E-mail:</label>
               <div class="controls">
-                <input required="" id="userid" name="userid" type="text" class="form-control" placeholder="JoeSixpack" class="input-medium" required="">
+                <input required="" id="userid" name="email" type="text" class="form-control" placeholder="JoeSixpack" class="input-medium" required="">
               </div>
             </div>
 
@@ -1086,6 +1086,15 @@ $arr = json_decode($contents, true);
             <fieldset>
             <!-- Sign Up Form -->
             <!-- Text input-->
+            
+            <!-- Text input-->
+            <div class="control-group">
+              <label class="control-label" for="userid">Name:</label>
+              <div class="controls">
+                <input id="userid" name="name" class="form-control" type="text" placeholder="JoeSixpack" class="input-large" required="">
+              </div>
+            </div>
+
             <div class="control-group">
               <label class="control-label" for="Email">Email:</label>
               <div class="controls">
@@ -1093,13 +1102,6 @@ $arr = json_decode($contents, true);
               </div>
             </div>
             
-            <!-- Text input-->
-            <div class="control-group">
-              <label class="control-label" for="userid">Alias:</label>
-              <div class="controls">
-                <input id="userid" name="userid" class="form-control" type="text" placeholder="JoeSixpack" class="input-large" required="">
-              </div>
-            </div>
             
             <!-- Password input-->
             <div class="control-group">
