@@ -1061,15 +1061,6 @@ $arr = json_decode($contents, true);
             </div>
 
             <!-- Multiple Checkboxes (inline) -->
-            <div class="control-group">
-              <label class="control-label" for="rememberme"></label>
-              <div class="controls">
-                <label class="checkbox inline" for="rememberme-0">
-                  <input type="checkbox" name="rememberme" id="rememberme-0" value="Remember me">
-                  Remember me
-                </label>
-              </div>
-            </div>
 
             <!-- Button -->
             <div class="control-group">
@@ -1121,16 +1112,7 @@ $arr = json_decode($contents, true);
             </div>
             
             <!-- Multiple Radios (inline) -->
-            <br>
-            <div class="control-group">
-              <label class="control-label" for="humancheck">Humanity Check:</label>
-              <div class="controls">
-                <label class="radio inline" for="humancheck-0">
-                  <input type="radio" name="humancheck" id="humancheck-0" value="robot" checked="checked">I'm a Robot</label>
-                <label class="radio inline" for="humancheck-1">
-                  <input type="radio" name="humancheck" id="humancheck-1" value="human">I'm Human</label>
-              </div>
-            </div>
+            
             
             <!-- Button -->
             <div class="control-group">
