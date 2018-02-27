@@ -556,7 +556,7 @@ $arr = json_decode($contents, true);
                   Where the Internet is about availability of information, blogging is about making information creation available to anyone. Don’t focus on having a great blog. Focus on producing a blog that’s great for your readers.
                 </p>
                 <p>
-             <!--   <button class="btn" href="#signup" data-toggle="modal" data-target=".bs-modal-sm">Post Your Own</button></p>  -->
+               <button class="btn" href="#signup" data-toggle="modal" data-target=".bs-modal-sm">Post Your Own</button></p>  
               </div>
               <div class="col-md-9 content-right">
                 <div class="row">
