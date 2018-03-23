@@ -1010,8 +1010,10 @@ $arr = json_decode($contents, true);
           <div class="footer-bottom">
             <div class="container">
               <div class="row">
+                <h4 class="text-center">Click Here for :- <a href="https://docs.google.com/forms/d/e/1FAIpQLScOWA1r5SNRKXlOpRp74-nUkCk8pXAFg51QFA5zNvuV-rsBLQ/viewform?usp=sf_link" style="color: white;" target="_blank">Distributor Onboarding form</a>  ---- <a href="https://docs.google.com/forms/d/e/1FAIpQLSc8ZpVZKE1IJKT6KiP5rSH8jZRrvCvoSXyIhda5UrjkQpqrFg/viewform?usp=sf_link" style="color: white;"  target="_blank">Pharmacy Onboarding form</a> </h4>
                <h3 class="text-center"><b>Email -</b> contactus@medicento.com, <b>Call -</b>+91-9743959497 / 080-41131583</h3>
                <h1 class="text-center"><b>Mediclick Healthcare Services Pvt. Ltd.</b></h1>
+
               </div>
             </div>
           </div>
