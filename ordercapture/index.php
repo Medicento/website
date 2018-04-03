@@ -11,6 +11,9 @@
     $first_name = explode(" ", $name_title['name']);
 ?>
 
+
+
+
 <?php
     $x = 6; // Amount of digits
     $min = pow(10,$x);
