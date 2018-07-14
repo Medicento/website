@@ -161,7 +161,7 @@ $arr = json_decode($contents, true);
                      <h1 style="font-size: 60px;"><b>medicento.</b></h1>
                     
                         <h4>your medicine channel</h4>                  
-                        <button  class="button button2" onclick="openSearch()">Know Your Medicine</button>
+                        <!-- <button  class="button button2" onclick="openSearch()">Know Your Medicine</button> -->
                   </div>
               </div>
               <div class="mouse-icon margin-20">
@@ -827,7 +827,7 @@ $arr = json_decode($contents, true);
                     </div>
                   </div>
 
-                  <div class="grid-item">
+                  <!-- <div class="grid-item">
                     <div class="wrap-article">
                      <img alt="blog-4" class="img-circle text-center" src="images/abhishek.jpg">
                      <p class="subtitle fancy">
@@ -914,7 +914,7 @@ $arr = json_decode($contents, true);
                       </p>
                       
                     </div>
-                  </div>  
+                  </div>   -->
 
                   <div class="grid-item">
                     <div class="wrap-article">
