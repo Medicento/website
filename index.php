@@ -110,13 +110,13 @@ $arr = json_decode($contents, true);
              <a data-scroll="" href="#services">
               <span>Services</span>
             </a>
-            <a data-scroll="" href="Dealerform/retailer_form.html">
+            <a href="Dealerform/retailer_form.html">
               <span>Dealer Form</span>
             </a>
-            <a data-scroll="" href="dealer-locator/dealer1.php">
+            <a href="dealer-locator/dealer1.php">
               <span>Dealer Locator</span>
             </a>
-            <a data-scroll="" href="Distributor/retailer_form.html">
+            <a href="Distributor/retailer_form.html">
               <span>Distributor On-boarding Form</span>
             </a>
             <a data-scroll="" href="#employement">
