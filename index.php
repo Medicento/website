@@ -101,7 +101,7 @@ $arr = json_decode($contents, true);
             <a data-scroll="" href="#home" class="active">
               <span>Home</span>
             </a>
-            <a data-scroll="" href="#about">
+            <a data-scroll="" href="about/AboutUs.html">
               <span>About</span>
             </a>
          <!--   <a data-scroll="" href="#work">
@@ -134,7 +134,7 @@ $arr = json_decode($contents, true);
             <a data-scroll="" href="#blog">
               <span>Team</span>
             </a>
-            <a data-scroll="" href="about/AboutUs.html">
+            <a data-scroll="" href="#contact">
               <span>Contact</span>
             </a>
             <a target="_blank" href="career.php">
